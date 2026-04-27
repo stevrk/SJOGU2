@@ -260,7 +260,7 @@
     }
     
     /* Show mobile menu button and hide desktop nav below 1200px */
-    @media (max-width: 1279px) {
+    @media (max-width: 1500px) {
         .xl\:flex {
             display: none !important;
         }
@@ -317,6 +317,88 @@
     
     .border-b-2 {
         transition: all 0.3s ease;
+    }
+
+    /* ===== FIX: MAKE MOBILE MENU SCROLLABLE ===== */
+    .mobile-menu {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .mobile-menu .flex-1 {
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        flex: 1;
+        min-height: 0;
+    }
+
+    /* EXTRA bottom padding */
+    .mobile-menu .flex-1 .p-6 {
+        padding-bottom: 80px;
+    }
+
+    /* Reduce top padding to save space */
+    .mobile-menu .p-6 {
+        padding-top: 0.75rem;
+    }
+
+    /* Reduce spacing between items */
+    .mobile-menu .space-y-3 > :not([hidden]) ~ :not([hidden]) {
+        margin-top: 0.5rem;
+    }
+
+    /* Reduce margin on sections */
+    .mobile-menu .mb-6 {
+        margin-bottom: 0.75rem;
+    }
+    .mobile-menu .pb-6 {
+        padding-bottom: 0.75rem;
+    }
+
+    /* Make the Apply Now button more compact */
+    .mobile-nav-link:last-child {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+    /* For shorter screens */
+    @media (max-height: 700px) {
+        .mobile-menu .flex-1 .p-6 {
+            padding-bottom: 60px;
+        }
+        .mobile-menu .p-6 {
+            padding-top: 0.5rem;
+        }
+    }
+
+    /* For iPhone SE and very short screens */
+    @media (max-height: 600px) {
+        .mobile-menu .flex-1 .p-6 {
+            padding-bottom: 50px;
+        }
+        .mobile-menu .p-6 {
+            padding: 0.5rem;
+        }
+        .mobile-nav-link {
+            padding: 0.4rem 0.75rem !important;
+        }
+    }
+
+    /* For taller screens */
+    @media (min-height: 800px) {
+        .mobile-menu .flex-1 .p-6 {
+            padding-bottom: 100px;
+        }
+    }
+
+    /* Safe area support */
+    @supports (padding-bottom: env(safe-area-inset-bottom)) {
+        .mobile-menu .flex-1 .p-6 {
+            padding-bottom: calc(80px + env(safe-area-inset-bottom));
+        }
     }
 </style>
 <script>

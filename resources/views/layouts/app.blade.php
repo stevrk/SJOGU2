@@ -229,6 +229,8 @@
     <!-- Main Content -->
     <main>
         @yield('content')
+        <!-- Chatbot Partial -->
+       @include('partials.chatbot')
     </main>
 
     <!-- Include Footer Partial -->
@@ -329,6 +331,7 @@
         });
     </script>
     <script>
+
         // Enhanced mobile menu functionality
 document.addEventListener('DOMContentLoaded', function() {
     const mobileMenu = document.getElementById('mobileMenu');

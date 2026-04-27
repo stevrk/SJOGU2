@@ -427,7 +427,7 @@
             </div>
         </div>
     </section>
-    <!--ABOUT SECTION -->
+   
     <!-- ABOUT SECTION -->
 <section id="about" class="py-16 px-4 md:px-16 bg-red-700">
     <div class="grid md:grid-cols-2 gap-8 md:gap-10 items-center">
@@ -435,7 +435,7 @@
         <!-- LEFT: IMAGE -->
         <div class="relative flex justify-center md:justify-start">
             <div class="w-full md:w-auto">
-                <img src="{{ asset('images/admin_block.jpeg') }}"
+                <img src="{{ asset('images/carausel/admin_block.jpg') }}"
                     class="w-full md:w-[450px] lg:w-[500px] h-[300px] md:h-[420px] object-cover rounded-xl shadow-lg mx-auto md:mx-0">
                 
                 <div class="absolute bottom-4 left-4 md:bottom-5 md:left-5 bg-white px-4 md:px-5 py-2 md:py-3 shadow rounded">
