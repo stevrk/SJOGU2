@@ -1003,7 +1003,7 @@
         <div class="grid md:grid-cols-3 gap-6 mb-12">
             <!-- Accommodation -->
             <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition">
-                <img src="{{ asset('images/carausel/Accomodation.jpg') }}" alt="Student Accommodation" class="w-full h-48 object-cover">
+                <img src="{{ asset('images/carausel/accomodation.jpg') }}" alt="Student Accommodation" class="w-full h-48 object-cover">
                 <div class="p-6">
                     <div class="flex items-center gap-2 mb-3">
                         <i class="fas fa-home text-red-600 text-xl"></i>

@@ -8,6 +8,6 @@ class LibraryController extends Controller
 {
        public function index()
     {
-        return view('pages.library_sec.library_index');
+        return view('pages.Library_sec.library_index');
     }
 }
