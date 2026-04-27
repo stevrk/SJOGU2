@@ -1223,6 +1223,433 @@
         </div>
     </div>
 </section>
+
+<!--University Partner-->
+<section id="partners" class="py-16 px-4 md:px-16 bg-red-700">
+    <div class="container mx-auto">
+        <!-- Section Header -->
+        <div class="text-center mb-10">
+            <div class="inline-flex items-center justify-center w-12 h-12 bg-white/20 rounded-2xl mb-3">
+                <i class="fas fa-handshake text-white text-xl"></i>
+            </div>
+            <p class="text-red-100 font-semibold mb-2 uppercase tracking-wide">Our Collaborators</p>
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Trusted <span class="text-yellow-300">Partners</span></h2>
+            <div class="w-20 h-1 bg-yellow-300 mx-auto rounded-full"></div>
+            <p class="text-red-100 max-w-2xl mx-auto mt-3">
+                Working together to advance healthcare education and research
+            </p>
+        </div>
+
+        <!-- Partners Grid - Centered -->
+        <div class="flex justify-center">
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-6 gap-4 md:gap-6 max-w-7xl">
+                
+                <!-- Partner 1 - CHAM -->
+                <div class="w-[120px] sm:w-[130px] md:w-[140px] bg-white rounded-xl shadow-md hover:shadow-lg transition p-3 text-center group hover:-translate-y-1 mx-auto">
+                    <div class="w-16 h-16 md:w-20 md:h-20 mx-auto mb-2 flex items-center justify-center bg-gray-50 rounded-lg p-2">
+                        <img src="{{ asset('images/parteners/christian health association.jpeg') }}" 
+                             alt="CHAM"
+                             class="max-w-full max-h-full object-contain group-hover:scale-105 transition">
+                    </div>
+                    <h3 class="font-semibold text-gray-800 text-xs md:text-sm">CHAM</h3>
+                    <p class="text-gray-400 text-[10px] md:text-xs mt-0.5 leading-tight">Christian Health Association</p>
+                </div>
+
+                <!-- Partner 2 - Seed Global Health -->
+                <div class="w-[120px] sm:w-[130px] md:w-[140px] bg-white rounded-xl shadow-md hover:shadow-lg transition p-3 text-center group hover:-translate-y-1 mx-auto">
+                    <div class="w-16 h-16 md:w-20 md:h-20 mx-auto mb-2 flex items-center justify-center bg-gray-50 rounded-lg p-2">
+                        <img src="{{ asset('images/parteners/seed health.jpeg') }}" 
+                             alt="Seed Global Health"
+                             class="max-w-full max-h-full object-contain group-hover:scale-105 transition">
+                    </div>
+                    <h3 class="font-semibold text-gray-800 text-xs md:text-sm">Seed Global Health</h3>
+                    <p class="text-gray-400 text-[10px] md:text-xs mt-0.5 leading-tight">Health Workforce</p>
+                </div>
+
+                <!-- Partner 3 - GAIA -->
+                <div class="w-[120px] sm:w-[130px] md:w-[140px] bg-white rounded-xl shadow-md hover:shadow-lg transition p-3 text-center group hover:-translate-y-1 mx-auto">
+                    <div class="w-16 h-16 md:w-20 md:h-20 mx-auto mb-2 flex items-center justify-center bg-gray-50 rounded-lg p-2">
+                        <img src="{{ asset('images/parteners/Global health.jpeg') }}" 
+                             alt="GAIA"
+                             class="max-w-full max-h-full object-contain group-hover:scale-105 transition">
+                    </div>
+                    <h3 class="font-semibold text-gray-800 text-xs md:text-sm">GAIA</h3>
+                    <p class="text-gray-400 text-[10px] md:text-xs mt-0.5 leading-tight">Global Health</p>
+                </div>
+
+                <!-- Partner 4 - Uniservitate -->
+                <div class="w-[120px] sm:w-[130px] md:w-[140px] bg-white rounded-xl shadow-md hover:shadow-lg transition p-3 text-center group hover:-translate-y-1 mx-auto">
+                    <div class="w-16 h-16 md:w-20 md:h-20 mx-auto mb-2 flex items-center justify-center bg-gray-50 rounded-lg p-2">
+                        <img src="{{ asset('images/parteners/service_learning.png') }}" 
+                             alt="Uniservitate"
+                             class="max-w-full max-h-full object-contain group-hover:scale-105 transition">
+                    </div>
+                    <h3 class="font-semibold text-gray-800 text-xs md:text-sm">Uniservitate</h3>
+                    <p class="text-gray-400 text-[10px] md:text-xs mt-0.5 leading-tight">Service Learning</p>
+                </div>
+
+                <!-- Partner 5 - Medic to Medic -->
+                <div class="w-[120px] sm:w-[130px] md:w-[140px] bg-white rounded-xl shadow-md hover:shadow-lg transition p-3 text-center group hover:-translate-y-1 mx-auto">
+                    <div class="w-16 h-16 md:w-20 md:h-20 mx-auto mb-2 flex items-center justify-center bg-gray-50 rounded-lg p-2">
+                        <img src="{{ asset('images/parteners/medic to medic.jpeg') }}" 
+                             alt="Medic to Medic"
+                             class="max-w-full max-h-full object-contain group-hover:scale-105 transition">
+                    </div>
+                    <h3 class="font-semibold text-gray-800 text-xs md:text-sm">Medic to Medic</h3>
+                    <p class="text-gray-400 text-[10px] md:text-xs mt-0.5 leading-tight">Medical Education Support</p>
+                </div>
+
+                <!-- Partner 6 - Book Aid International -->
+                <div class="w-[120px] sm:w-[130px] md:w-[140px] bg-white rounded-xl shadow-md hover:shadow-lg transition p-3 text-center group hover:-translate-y-1 mx-auto">
+                    <div class="w-16 h-16 md:w-20 md:h-20 mx-auto mb-2 flex items-center justify-center bg-gray-50 rounded-lg p-2">
+                        <img src="{{ asset('images/parteners/book_aid.jpeg') }}" 
+                             alt="Book Aid International"
+                             class="max-w-full max-h-full object-contain group-hover:scale-105 transition">
+                    </div>
+                    <h3 class="font-semibold text-gray-800 text-xs md:text-sm">Book Aid International</h3>
+                    <p class="text-gray-400 text-[10px] md:text-xs mt-0.5 leading-tight">Library Resources</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Additional Text -->
+        <div class="text-center mt-10">
+            <p class="text-sm text-red-100">
+                <i class="fas fa-plus-circle text-yellow-300 text-xs mr-1"></i>
+                More partnerships are being established to enhance our academic programs
+            </p>
+        </div>
+    </div>
+</section>
+
+<!--Allumin Section -->
+
+<section id="alumni" class="py-12 px-4 md:px-16 bg-white">
+    <div class="container mx-auto">
+        <!-- Section Header - Compact -->
+        <div class="text-center mb-8">
+            <div class="inline-flex items-center justify-center w-10 h-10 bg-red-50 rounded-xl mb-2">
+                <i class="fas fa-users text-red-600 text-lg"></i>
+            </div>
+            <p class="text-red-600 font-semibold mb-1 text-sm uppercase tracking-wide">Our Community</p>
+            <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-2">Alumni <span class="text-red-600">Network</span></h2>
+            <div class="w-16 h-0.5 bg-red-600 mx-auto rounded-full"></div>
+            <p class="text-gray-500 text-sm max-w-2xl mx-auto mt-2">
+                Connecting graduates making a difference in healthcare across Malawi and beyond
+            </p>
+        </div>
+
+        <!-- Stats Row - More Compact -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+            <div class="text-center bg-gray-50 rounded-xl p-3 hover:shadow-md transition">
+                <div class="w-10 h-10 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-1">
+                    <i class="fas fa-user-graduate text-red-600 text-base"></i>
+                </div>
+                <p class="text-xl md:text-2xl font-bold text-gray-800">3,000+</p>
+                <p class="text-gray-500 text-xs">Alumni Members</p>
+            </div>
+            <div class="text-center bg-gray-50 rounded-xl p-3 hover:shadow-md transition">
+                <div class="w-10 h-10 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-1">
+                    <i class="fas fa-globe-africa text-red-600 text-base"></i>
+                </div>
+                <p class="text-xl md:text-2xl font-bold text-gray-800">15+</p>
+                <p class="text-gray-500 text-xs">Countries</p>
+            </div>
+            <div class="text-center bg-gray-50 rounded-xl p-3 hover:shadow-md transition">
+                <div class="w-10 h-10 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-1">
+                    <i class="fas fa-calendar-alt text-red-600 text-base"></i>
+                </div>
+                <p class="text-xl md:text-2xl font-bold text-gray-800">20+</p>
+                <p class="text-gray-500 text-xs">Years</p>
+            </div>
+            <div class="text-center bg-gray-50 rounded-xl p-3 hover:shadow-md transition">
+                <div class="w-10 h-10 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-1">
+                    <i class="fas fa-chalkboard-user text-red-600 text-base"></i>
+                </div>
+                <p class="text-xl md:text-2xl font-bold text-gray-800">85%</p>
+                <p class="text-gray-500 text-xs">Employed</p>
+            </div>
+        </div>
+
+        <!-- Featured Alumni - 2 columns instead of 3 for compactness -->
+        <div class="mb-8">
+            <div class="text-center mb-6">
+                <h3 class="text-xl font-bold text-gray-800">Featured <span class="text-red-600">Alumni</span></h3>
+                <div class="w-12 h-0.5 bg-red-600 mx-auto mt-1 rounded-full"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-5">
+                <!-- Alumni 1 -->
+                <div class="bg-gray-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition flex">
+                    <div class="w-28 h-28 flex-shrink-0">
+                        <img src="{{ asset('images/alumni1.jpg') }}" 
+                             alt="Alumni"
+                             class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-3 flex-1">
+                        <div class="flex items-center gap-2 mb-1">
+                            <i class="fas fa-quote-left text-red-500 text-xs"></i>
+                            <p class="text-gray-500 text-xs">Class of 2018</p>
+                        </div>
+                        <h4 class="text-base font-bold text-gray-800 mb-0.5">Dr. Sarah Mwale</h4>
+                        <p class="text-red-600 text-xs mb-1">Senior Clinical Officer</p>
+                        <p class="text-gray-600 text-xs leading-relaxed line-clamp-2">
+                            "SJOGU gave me the foundation and confidence to excel in my career."
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Alumni 2 -->
+                <div class="bg-gray-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition flex">
+                    <div class="w-28 h-28 flex-shrink-0">
+                        <img src="{{ asset('images/alumni2.jpg') }}" 
+                             alt="Alumni"
+                             class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-3 flex-1">
+                        <div class="flex items-center gap-2 mb-1">
+                            <i class="fas fa-quote-left text-red-500 text-xs"></i>
+                            <p class="text-gray-500 text-xs">Class of 2019</p>
+                        </div>
+                        <h4 class="text-base font-bold text-gray-800 mb-0.5">John Banda</h4>
+                        <p class="text-red-600 text-xs mb-1">Public Health Specialist</p>
+                        <p class="text-gray-600 text-xs leading-relaxed line-clamp-2">
+                            "The holistic education at SJOGU shaped my approach to community health."
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Alumni 3 -->
+                <div class="bg-gray-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition flex">
+                    <div class="w-28 h-28 flex-shrink-0">
+                        <img src="{{ asset('images/alumni3.jpg') }}" 
+                             alt="Alumni"
+                             class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-3 flex-1">
+                        <div class="flex items-center gap-2 mb-1">
+                            <i class="fas fa-quote-left text-red-500 text-xs"></i>
+                            <p class="text-gray-500 text-xs">Class of 2020</p>
+                        </div>
+                        <h4 class="text-base font-bold text-gray-800 mb-0.5">Grace Phiri</h4>
+                        <p class="text-red-600 text-xs mb-1">Nurse Educator</p>
+                        <p class="text-gray-600 text-xs leading-relaxed line-clamp-2">
+                            "Returning as an educator after graduating from SJOGU feels like coming home."
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Alumni 4 - Added to balance -->
+                <div class="bg-gray-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition flex">
+                    <div class="w-28 h-28 flex-shrink-0">
+                        <img src="{{ asset('images/alumni4.jpg') }}" 
+                             alt="Alumni"
+                             class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-3 flex-1">
+                        <div class="flex items-center gap-2 mb-1">
+                            <i class="fas fa-quote-left text-red-500 text-xs"></i>
+                            <p class="text-gray-500 text-xs">Class of 2017</p>
+                        </div>
+                        <h4 class="text-base font-bold text-gray-800 mb-0.5">Dr. Michael Chirwa</h4>
+                        <p class="text-red-600 text-xs mb-1">Medical Director</p>
+                        <p class="text-gray-600 text-xs leading-relaxed line-clamp-2">
+                            "SJOGU alumni network has been instrumental in my professional growth."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Alumni Benefits - More compact -->
+        <div class="mb-8">
+            <div class="text-center mb-5">
+                <h3 class="text-xl font-bold text-gray-800">Alumni <span class="text-red-600">Benefits</span></h3>
+                <div class="w-12 h-0.5 bg-red-600 mx-auto mt-1 rounded-full"></div>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+                <div class="text-center p-2 bg-red-50 rounded-lg hover:bg-red-100 transition">
+                    <i class="fas fa-handshake text-red-600 text-lg mb-1"></i>
+                    <p class="font-semibold text-gray-800 text-xs">Networking</p>
+                </div>
+                <div class="text-center p-2 bg-red-50 rounded-lg hover:bg-red-100 transition">
+                    <i class="fas fa-chalkboard-user text-red-600 text-lg mb-1"></i>
+                    <p class="font-semibold text-gray-800 text-xs">Education</p>
+                </div>
+                <div class="text-center p-2 bg-red-50 rounded-lg hover:bg-red-100 transition">
+                    <i class="fas fa-briefcase text-red-600 text-lg mb-1"></i>
+                    <p class="font-semibold text-gray-800 text-xs">Career</p>
+                </div>
+                <div class="text-center p-2 bg-red-50 rounded-lg hover:bg-red-100 transition">
+                    <i class="fas fa-newspaper text-red-600 text-lg mb-1"></i>
+                    <p class="font-semibold text-gray-800 text-xs">Newsletter</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CTA Buttons - Compact -->
+        <div class="bg-red-700 rounded-xl p-5 text-center">
+            <h3 class="text-xl font-bold text-white mb-2">Stay Connected</h3>
+            <p class="text-red-100 text-sm mb-4 max-w-xl mx-auto">
+                Join our growing alumni network and shape the future of healthcare
+            </p>
+            <div class="flex flex-wrap gap-3 justify-center">
+                <a href="#" id="registerAlumniBtn" class="bg-white text-red-600 px-5 py-2 rounded-lg font-semibold hover:bg-gray-100 transition flex items-center gap-2 text-sm">
+                    <i class="fas fa-user-plus"></i> Register
+                </a>
+                <a href="#" id="whatsappBtn" class="bg-green-600 hover:bg-green-700 text-white px-5 py-2 rounded-lg font-semibold transition flex items-center gap-2 text-sm shadow-md">
+                    <i class="fab fa-whatsapp"></i> Join WhatsApp
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Alumni Registration Popup Modal (Compact) -->
+<div id="alumniModal" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50">
+    <div class="bg-white rounded-xl max-w-md w-full mx-4 transform transition-all duration-300">
+        <!-- Modal Header -->
+        <div class="bg-red-600 text-white rounded-t-xl px-5 py-3">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center gap-2">
+                    <i class="fas fa-user-graduate"></i>
+                    <h3 class="font-bold">Alumni Registration</h3>
+                </div>
+                <button id="closeModalBtn" class="text-white hover:text-gray-200 text-2xl leading-none">&times;</button>
+            </div>
+            <p class="text-red-100 text-xs mt-1">Demo Version - No data saved</p>
+        </div>
+        
+        <!-- Modal Body -->
+        <div class="p-5">
+            <form id="alumniForm">
+                <div class="grid grid-cols-2 gap-3">
+                    <div class="mb-3 col-span-2">
+                        <label class="block text-xs font-medium text-gray-700 mb-1">
+                            <i class="fas fa-user text-gray-400 text-xs mr-1"></i> Full Name *
+                        </label>
+                        <input type="text" id="fullName" placeholder="Enter full name" 
+                            class="w-full px-3 py-1.5 text-sm border border-gray-300 rounded-lg focus:outline-none focus:border-red-500">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label class="block text-xs font-medium text-gray-700 mb-1">
+                            <i class="fas fa-envelope text-gray-400 text-xs mr-1"></i> Email *
+                        </label>
+                        <input type="email" id="email" placeholder="Email address" 
+                            class="w-full px-3 py-1.5 text-sm border border-gray-300 rounded-lg focus:outline-none focus:border-red-500">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label class="block text-xs font-medium text-gray-700 mb-1">
+                            <i class="fas fa-phone text-gray-400 text-xs mr-1"></i> Phone
+                        </label>
+                        <input type="tel" id="phone" placeholder="Phone number" 
+                            class="w-full px-3 py-1.5 text-sm border border-gray-300 rounded-lg focus:outline-none focus:border-red-500">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label class="block text-xs font-medium text-gray-700 mb-1">
+                            <i class="fas fa-calendar-alt text-gray-400 text-xs mr-1"></i> Grad Year
+                        </label>
+                        <select id="gradYear" class="w-full px-3 py-1.5 text-sm border border-gray-300 rounded-lg focus:outline-none focus:border-red-500">
+                            <option value="">Select year</option>
+                            <option>2024</option>
+                            <option>2023</option>
+                            <option>2022</option>
+                            <option>2021</option>
+                            <option>2020</option>
+                        </select>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label class="block text-xs font-medium text-gray-700 mb-1">
+                            <i class="fas fa-graduation-cap text-gray-400 text-xs mr-1"></i> Program
+                        </label>
+                        <select id="program" class="w-full px-3 py-1.5 text-sm border border-gray-300 rounded-lg focus:outline-none focus:border-red-500">
+                            <option value="">Select program</option>
+                            <option>Bachelor of Medicine</option>
+                            <option>Bachelor of Nursing</option>
+                            <option>Bachelor of Public Health</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="mb-4">
+                    <label class="block text-xs font-medium text-gray-700 mb-1">
+                        <i class="fas fa-briefcase text-gray-400 text-xs mr-1"></i> Occupation
+                    </label>
+                    <input type="text" id="occupation" placeholder="Current job title" 
+                        class="w-full px-3 py-1.5 text-sm border border-gray-300 rounded-lg focus:outline-none focus:border-red-500">
+                </div>
+                
+                <button type="submit" class="w-full bg-red-600 text-white py-2 rounded-lg font-semibold hover:bg-red-700 transition flex items-center justify-center gap-2 text-sm">
+                    <i class="fas fa-paper-plane"></i> Register (Demo)
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Success Toast -->
+<div id="successToast" class="fixed bottom-4 right-4 bg-green-500 text-white px-4 py-2 rounded-lg shadow-lg hidden items-center gap-2 z-50 text-sm">
+    <i class="fas fa-check-circle"></i>
+    <div>
+        <p class="font-semibold">Registration Successful!</p>
+        <p class="text-xs opacity-90">Thank you for joining</p>
+    </div>
+</div>
+
+<script>
+    const modal = document.getElementById('alumniModal');
+    const registerBtn = document.getElementById('registerAlumniBtn');
+    const closeModalBtn = document.getElementById('closeModalBtn');
+    const alumniForm = document.getElementById('alumniForm');
+    const successToast = document.getElementById('successToast');
+    const whatsappBtn = document.getElementById('whatsappBtn');
+    
+    registerBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+    });
+    
+    function closeModal() {
+        modal.classList.remove('flex');
+        modal.classList.add('hidden');
+    }
+    
+    closeModalBtn.addEventListener('click', closeModal);
+    
+    modal.addEventListener('click', function(e) {
+        if (e.target === modal) closeModal();
+    });
+    
+    alumniForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        const fullName = document.getElementById('fullName').value;
+        const email = document.getElementById('email').value;
+        
+        if (!fullName || !email) {
+            alert('Please fill in name and email');
+            return;
+        }
+        
+        successToast.classList.remove('hidden');
+        setTimeout(() => successToast.classList.add('hidden'), 3000);
+        alumniForm.reset();
+        closeModal();
+    });
+    
+    whatsappBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        alert('Demo: WhatsApp group link would open here');
+    });
+</script>
+
+
 <!-- Contact Section on Home Page -->
 <section id="contact" class="py-16 px-4 md:px-16 bg-gradient-to-r from-red-700 to-red-800">
     <div class="container mx-auto text-center">
@@ -1236,6 +1663,8 @@
         </a>
     </div>
 </section>
+
+
     
 
  
