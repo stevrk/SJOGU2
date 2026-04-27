@@ -16,8 +16,8 @@
                     <i class="fas fa-phone-alt text-xl md:text-2xl"></i>
                 </div>
                 <h3 class="text-base md:text-lg font-semibold mb-2">Phone</h3>
-                <p class="text-gray-400 text-xs md:text-sm">+265 123 456 789</p>
-                <p class="text-gray-400 text-xs md:text-sm">+265 987 654 321</p>
+                <p class="text-gray-400 text-xs md:text-sm">+265 991 887 119</p>
+                <p class="text-gray-400 text-xs md:text-sm">+265 111 610 636</p>
             </div>
 
             <!-- Email -->
@@ -26,8 +26,8 @@
                     <i class="fas fa-envelope text-xl md:text-2xl"></i>
                 </div>
                 <h3 class="text-base md:text-lg font-semibold mb-2">Email</h3>
-                <p class="text-gray-400 text-xs md:text-sm">info@sjogu.edu</p>
-                <p class="text-gray-400 text-xs md:text-sm">admissions@sjogu.edu</p>
+                <p class="text-gray-400 text-xs md:text-sm">collegehs@sjog.mw</p>
+                
             </div>
 
             <!-- Location -->
@@ -37,8 +37,9 @@
                 </div>
                 <h3 class="text-base md:text-lg font-semibold mb-2">Location</h3>
                 <p class="text-gray-400 text-xs md:text-sm">St John of God University</p>
-                <p class="text-gray-400 text-xs md:text-sm">Mzuzu, Malawi</p>
+                <p class="text-gray-400 text-xs md:text-sm">P.O. Box 744, Mzuzu, Malawi</p>
             </div>
+          
         </div>
 
         <!-- Footer Links - Mobile first approach -->

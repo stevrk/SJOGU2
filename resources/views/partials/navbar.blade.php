@@ -134,11 +134,11 @@
     <div class="flex items-center gap-5">
         <a href="tel:+265123456789" class="flex items-center gap-2 hover:text-red-200 transition">
             <i class="fas fa-phone-alt text-xs"></i>
-            <span>+265 123 456 789</span>
+            <span>+265 991 887 119</span>
         </a>
         <a href="mailto:info@sjoguniversity.com" class="flex items-center gap-2 hover:text-red-200 transition">
             <i class="fas fa-envelope text-xs"></i>
-            <span>info@sjoguniversity.com</span>
+            <span>collegehs@sjog.mw</span>
         </a>
         <div class="flex items-center gap-2">
             <i class="fas fa-clock text-xs"></i>

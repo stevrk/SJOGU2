@@ -769,7 +769,7 @@
                         <strong class="font-semibold">Application Deadline:</strong> May 31st, 2026
                     </p>
                     <p class="text-sm text-gray-600 mt-1">
-                        For inquiries, contact admissions office: <strong>admissions@sjogu.edu</strong> or call <strong>+265 123 456 789</strong>
+                        For inquiries, contact admissions office: <strong>collegesh@sjog.mw</strong> or call <strong>+265 991 887 119</strong>
                     </p>
                 </div>
             </div>

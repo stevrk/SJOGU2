@@ -1,0 +1,14 @@
+.git
+.gitignore
+.env
+.env.*
+*.log
+*.sqlite
+node_modules
+vendor
+storage/app/*
+storage/framework/*
+storage/logs/*
+tests
+.DS_Store
+Thumbs.db
