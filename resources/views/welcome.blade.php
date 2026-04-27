@@ -1586,7 +1586,7 @@
                 </div>
                 
                 <button type="submit" class="w-full bg-red-600 text-white py-2 rounded-lg font-semibold hover:bg-red-700 transition flex items-center justify-center gap-2 text-sm">
-                    <i class="fas fa-paper-plane"></i> Register (Demo)
+                    <i class="fas fa-paper-plane"></i> Register 
                 </button>
             </form>
         </div>

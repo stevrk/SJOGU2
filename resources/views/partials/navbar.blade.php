@@ -118,17 +118,16 @@
                     </li>
                 </ul>
                 
-                <!-- Apply Now Button -->
-                <a href="/enroll" class="mobile-nav-link block bg-red-700 text-white w-full py-3 rounded-lg text-center font-semibold hover:bg-red-800 transition mt-4 {{ request()->is('enroll') ? 'bg-red-800 ring-2 ring-red-500' : '' }}" data-bypass="true">
-                    <i class="fas fa-user-plus mr-2"></i>Apply Now
-                </a>
+                <!-- Apply Now Button - ADDED BACK -->
+            <a href="/enroll" class="mobile-nav-link block bg-yellow-500 text-white w-full py-3 rounded-lg text-center font-semibold hover:bg-yellow-400 transition mt-4 {{ request()->is('enroll') ? 'bg-yellow-600 ring-2 ring-yellow-300' : '' }}" data-bypass="true">
+                <i class="fas fa-user-plus mr-2"></i>Apply Now
+            </a>
                 
             </div>
         </div>
     </div>
 </div>
-
-<!-- TOP BAR - Sticky with gradient and search -->
+<!-- TOP BAR - Sticky with gradient, search, and Apply Now button -->
 <div class="bg-gradient-to-r from-red-700 to-red-800 text-white text-sm py-2.5 px-4 md:px-6 hidden xl:flex items-center justify-between sticky top-0 z-50 shadow-md">
     <!-- Left: Contact Icons -->
     <div class="flex items-center gap-5">
@@ -146,7 +145,7 @@
         </div>
     </div>
     
-    <!-- Right: Search Field + Portal Access Button -->
+    <!-- Right: Search Field + Apply Now + Portal Login -->
     <div class="flex items-center gap-4">
         <!-- Clean Search Bar -->
         <form action="#" method="GET" class="relative">
@@ -159,6 +158,14 @@
                        class="w-64 px-10 py-2 rounded-lg text-gray-900 text-sm focus:outline-none focus:ring-2 focus:ring-red-400 bg-white/90 backdrop-blur-sm border-0">
             </div>
         </form>
+        
+        <!-- Apply Now Button moved to top bar -->
+        <a href="/enroll" class="bg-yellow-500 text-white hover:bg-yellow-400 px-5 py-2 rounded-lg font-semibold transition flex items-center gap-2 shadow-md">
+            <i class="fas fa-user-plus"></i>
+            <span>Apply Now</span>
+            <i class="fas fa-arrow-right text-xs"></i>
+        </a>
+        
         
         <!-- Portal Login Button -->
         <a href="#" class="bg-white text-red-700 hover:bg-gray-100 px-4 py-2 rounded-lg font-semibold transition flex items-center gap-2 shadow-md">
@@ -223,11 +230,6 @@
                     Contact
                 </a>
             </li>
-            <li>
-                <a href="/enroll" class="bg-red-600 text-white px-5 py-2 rounded-lg font-semibold hover:bg-red-700 transition shadow-md ml-2 {{ request()->is('enroll') ? 'bg-red-700 ring-2 ring-red-400' : '' }}">
-                    <i class="fas fa-user-plus mr-2"></i>Apply Now
-                </a>
-            </li>
         </ul>
         
         <!-- Mobile Search Icon + Hamburger Button - Visible on screens below 1200px -->
@@ -260,7 +262,7 @@
     }
     
     /* Show mobile menu button and hide desktop nav below 1200px */
-    @media (max-width: 1500px) {
+    @media (max-width: 1200px) {
         .xl\:flex {
             display: none !important;
         }
@@ -355,13 +357,6 @@
     }
     .mobile-menu .pb-6 {
         padding-bottom: 0.75rem;
-    }
-
-    /* Make the Apply Now button more compact */
-    .mobile-nav-link:last-child {
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
-        margin-top: 0.5rem;
     }
 
     /* For shorter screens */
@@ -489,7 +484,7 @@
         });
     }
     
-    // FIXED: Handle all mobile nav link clicks - intercept ALL links
+    // Handle all mobile nav link clicks - intercept ALL links
     document.querySelectorAll('.mobile-nav-link').forEach(link => {
         link.addEventListener('click', async function(e) {
             const href = this.getAttribute('href');
