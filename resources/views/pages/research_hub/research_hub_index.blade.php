@@ -17,6 +17,31 @@
     </div>
 </section>
 
+<!-- Research Message Banner -->
+<section class="py-8 px-4 md:px-16 bg-white">
+    <div class="container mx-auto max-w-4xl">
+        <div class="bg-gradient-to-r from-red-50 to-red-100 rounded-xl p-6 border border-red-200">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+                <div class="flex items-center gap-3">
+                    <div class="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center">
+                        <i class="fas fa-microscope text-white text-xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-gray-800">Active Research Departments</h3>
+                        <p class="text-sm text-gray-600">Collaborative research initiatives across multiple disciplines</p>
+                    </div>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-white px-3 py-1 rounded-full text-xs font-semibold text-red-600 shadow-sm">Clinical Medicine</span>
+                    <span class="bg-white px-3 py-1 rounded-full text-xs font-semibold text-red-600 shadow-sm">Nursing & Midwifery</span>
+                    <span class="bg-white px-3 py-1 rounded-full text-xs font-semibold text-red-600 shadow-sm">Psycho-Social Counselling</span>
+                    <span class="bg-white px-3 py-1 rounded-full text-xs font-semibold text-red-600 shadow-sm">Public Health</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Research Stats Highlights -->
 <section class="py-16 px-4 md:px-16 bg-white">
     <div class="container mx-auto">
@@ -144,34 +169,59 @@
     </div>
 </section>
 
-<!-- Featured Research - Coming Soon -->
-<section class="py-16 px-4 md:px-16 bg-white">
+<!-- Featured Research Section -->
+<!--<section class="py-16 px-4 md:px-16 bg-white">
     <div class="container mx-auto">
         <div class="text-center mb-12">
             <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-2">Featured <span class="text-red-600">Research</span></h2>
             <div class="w-20 h-1 bg-red-600 mx-auto rounded-full mb-4"></div>
             <p class="text-gray-600 max-w-2xl mx-auto">
-                Ongoing and completed research projects making an impact
+                Highlighted ongoing and completed research projects
             </p>
         </div>
 
-        <div class="bg-yellow-50 border-l-4 border-yellow-500 rounded-lg p-8 text-center max-w-2xl mx-auto">
-            <div class="w-20 h-20 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <i class="fas fa-microscope text-yellow-600 text-2xl"></i>
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-gray-50 rounded-xl p-6 shadow-md hover:shadow-lg transition">
+                <div class="flex items-start gap-3 mb-3">
+                    <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center flex-shrink-0">
+                        <i class="fas fa-microscope text-red-600 text-xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-gray-800">Malaria Prevention in Rural Communities</h3>
+                        <p class="text-sm text-red-600">Department of Public Health</p>
+                    </div>
+                </div>
+                <p class="text-gray-600 text-sm">Investigating effective malaria prevention strategies and interventions in rural Malawi communities to reduce transmission rates.</p>
             </div>
-            <h3 class="text-xl font-bold text-gray-800 mb-2">Research Content Coming Soon</h3>
-            <p class="text-gray-600 mb-4">
-                Our research department is currently compiling detailed information about ongoing and completed research projects.
-            </p>
-            <div class="inline-flex items-center gap-2 text-yellow-700 text-sm">
-                <i class="fas fa-clock"></i>
-                <span>Expected launch: 2026</span>
+            <div class="bg-gray-50 rounded-xl p-6 shadow-md hover:shadow-lg transition">
+                <div class="flex items-start gap-3 mb-3">
+                    <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center flex-shrink-0">
+                        <i class="fas fa-heartbeat text-red-600 text-xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-gray-800">Maternal Mortality Reduction</h3>
+                        <p class="text-sm text-red-600">Dept of Nursing & Midwifery</p>
+                    </div>
+                </div>
+                <p class="text-gray-600 text-sm">Research on factors contributing to maternal mortality and evidence-based interventions to improve maternal health outcomes.</p>
+            </div>
+            <div class="bg-gray-50 rounded-xl p-6 shadow-md hover:shadow-lg transition">
+                <div class="flex items-start gap-3 mb-3">
+                    <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center flex-shrink-0">
+                        <i class="fas fa-hand-holding-heart text-red-600 text-xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-gray-800">Youth Mental Health Awareness</h3>
+                        <p class="text-sm text-red-600">Dept of Psycho-Social Counselling</p>
+                    </div>
+                </div>
+                <p class="text-gray-600 text-sm">Addressing mental health challenges among youth through awareness programs, counselling services, and community engagement.</p>
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
-<!-- Publications - Coming Soon -->
+<!-- Publications Section - Coming Soon -->
 <section class="py-16 px-4 md:px-16 bg-gray-50">
     <div class="container mx-auto">
         <div class="text-center mb-12">
@@ -190,21 +240,12 @@
             <p class="text-gray-600 mb-4">
                 Our publications database is being populated with research papers, journals, and conference proceedings.
             </p>
-            <div class="inline-flex items-center gap-2 text-blue-700 text-sm">
-                <i class="fas fa-database"></i>
-                <span>Being updated regularly</span>
-            </div>
-        </div>
-
-        <div class="text-center mt-8">
-            <a href="#" class="inline-block border-2 border-red-600 text-red-600 px-6 py-2 rounded-lg font-semibold hover:bg-red-600 hover:text-white transition">
-                View All Publications (Coming Soon)
-            </a>
+           
         </div>
     </div>
 </section>
 
-<!-- Research Partners -->
+<!-- Research Partners 
 <section class="py-16 px-4 md:px-16 bg-white">
     <div class="container mx-auto">
         <div class="text-center mb-12">
@@ -242,7 +283,7 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
 <!-- Call to Action -->
 <section class="py-16 px-4 md:px-16 bg-gradient-to-r from-red-700 to-red-800">
@@ -251,13 +292,31 @@
         <p class="text-red-100 mb-6 max-w-2xl mx-auto">
             Join our research community. Collaborate with our faculty or pursue your own research interests.
         </p>
-        <div class="flex flex-wrap gap-4 justify-center">
+        
+        <div class="flex flex-wrap gap-4 justify-center mb-8">
             <a href="#" class="bg-white text-red-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
                 Contact Research Office
             </a>
-            <a href="#" class="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white/10 transition">
-                View Research Opportunities
-            </a>
+        </div>
+        
+        <!-- Contact Information below the button -->
+        <div class="text-center space-y-2">
+            <p class="text-red-100 text-sm">Or reach out directly:</p>
+            <div class="flex flex-col md:flex-row items-center justify-center gap-4">
+                <div class="flex items-center gap-2">
+                    <i class="fas fa-phone-alt text-yellow-300 text-sm"></i>
+                    <a href="tel:+265991887119" class="text-white hover:text-yellow-300 transition text-sm">
+                        +265 991 887 119
+                    </a>
+                </div>
+                <span class="text-red-400 hidden md:inline">|</span>
+                <div class="flex items-center gap-2">
+                    <i class="fas fa-envelope text-yellow-300 text-sm"></i>
+                    <a href="mailto:collegehs@sjog.mw" class="text-white hover:text-yellow-300 transition text-sm">
+                        collegehs@sjog.mw
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </section>

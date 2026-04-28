@@ -642,9 +642,10 @@
     </div>
 </section>
 
-<!--Admissions-->
+
 <!-- ADMISSIONS SECTION - Red Background -->
 <section id="Enroll" class="py-16 px-4 md:px-16 bg-red-700">
+
     <div class="container mx-auto">
         <!-- Section Header -->
         <div class="text-center mb-12">
@@ -699,66 +700,76 @@
             <div class="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition transform hover:-translate-y-2">
                 <div class="bg-red-800 px-6 py-4">
                     <h3 class="text-xl font-bold text-white flex items-center gap-2">
-                        <i class="fas fa-download"></i> Download Forms
+                        <i class="fas fa-download"></i> Downloads
                     </h3>
                 </div>
                 <div class="p-6">
-                    <div class="w-20 h-20 bg-red-100 rounded-full flex items-center justify-center mb-4 mx-auto">
-                        <i class="fas fa-file-pdf text-3xl text-red-600"></i>
-                    </div>
-                    <h4 class="text-lg font-bold text-gray-800 text-center mb-3">Application Forms</h4>
-                    <p class="text-gray-600 text-sm text-center mb-4">
-                        Download the application form, fill it manually, and submit to the admissions office.
-                    </p>
-                    <div class="space-y-3 mb-6">
-                        <div class="flex items-center justify-between gap-2 p-2 hover:bg-gray-50 rounded-lg transition">
-                            <div class="flex items-center gap-2">
-                                <i class="fas fa-file-pdf text-red-500 text-lg"></i>
-                                <span class="text-sm text-gray-700">Undergraduate Application Form</span>
-                            </div>
-                            <button onclick="downloadForm('undergraduate')" class="bg-red-600 hover:bg-red-700 text-white px-3 py-1.5 rounded text-sm flex items-center gap-1 transition">
-                                <i class="fas fa-download text-xs"></i> Download
-                            </button>
-                        </div>
-                        <div class="flex items-center justify-between gap-2 p-2 hover:bg-gray-50 rounded-lg transition">
-                            <div class="flex items-center gap-2">
-                                <i class="fas fa-file-pdf text-red-500 text-lg"></i>
-                                <span class="text-sm text-gray-700">Postgraduate Application Form</span>
-                            </div>
-                            <button onclick="downloadForm('postgraduate')" class="bg-red-600 hover:bg-red-700 text-white px-3 py-1.5 rounded text-sm flex items-center gap-1 transition">
-                                <i class="fas fa-download text-xs"></i> Download
-                            </button>
-                        </div>
-                        <div class="flex items-center justify-between gap-2 p-2 hover:bg-gray-50 rounded-lg transition">
-                            <div class="flex items-center gap-2">
-                                <i class="fas fa-file-pdf text-red-500 text-lg"></i>
-                                <span class="text-sm text-gray-700">International Student Form</span>
-                            </div>
-                            <button onclick="downloadForm('international')" class="bg-red-600 hover:bg-red-700 text-white px-3 py-1.5 rounded text-sm flex items-center gap-1 transition">
-                                <i class="fas fa-download text-xs"></i> Download
-                            </button>
-                        </div>
-                        <div class="flex items-center justify-between gap-2 p-2 hover:bg-gray-50 rounded-lg transition">
-                            <div class="flex items-center gap-2">
-                                <i class="fas fa-file-pdf text-red-500 text-lg"></i>
-                                <span class="text-sm text-gray-700">Scholarship Application Form</span>
-                            </div>
-                            <button onclick="downloadForm('scholarship')" class="bg-red-600 hover:bg-red-700 text-white px-3 py-1.5 rounded text-sm flex items-center gap-1 transition">
-                                <i class="fas fa-download text-xs"></i> Download
-                            </button>
-                        </div>
-                    </div>
-                    <div class="flex gap-3">
-                        <button onclick="downloadAllForms()" class="flex-1 bg-gray-800 text-white py-2 rounded-lg font-semibold hover:bg-gray-900 transition flex items-center justify-center gap-2 text-sm">
-                            <i class="fas fa-download"></i> Download All
-                        </button>
-                        <button onclick="viewAllForms()" class="flex-1 bg-red-600 text-white py-2 rounded-lg font-semibold hover:bg-red-700 transition flex items-center justify-center gap-2 text-sm">
-                            <i class="fas fa-eye"></i> View Forms
-                        </button>
-                    </div>
-                </div>
+    <div class="w-20 h-20 bg-red-100 rounded-full flex items-center justify-center mb-4 mx-auto">
+        <i class="fas fa-download text-3xl text-red-600"></i>
+    </div>
+    <h4 class="text-lg font-bold text-gray-800 text-center mb-3">Downloads & Resources</h4>
+    <p class="text-gray-600 text-sm text-center mb-4">
+        Download application forms, fees structure, and other important documents.
+    </p>
+    <div class="space-y-3 mb-6">
+        <div class="flex items-center justify-between gap-2 p-2 hover:bg-gray-50 rounded-lg transition">
+            <div class="flex items-center gap-2">
+                <i class="fas fa-file-pdf text-red-500 text-lg"></i>
+                <span class="text-sm text-gray-700">Undergraduate Application Form</span>
             </div>
+            <button onclick="downloadForm('undergraduate')" class="bg-red-600 hover:bg-red-700 text-white px-3 py-1.5 rounded text-sm flex items-center gap-1 transition">
+                <i class="fas fa-download text-xs"></i> Download
+            </button>
         </div>
+        <div class="flex items-center justify-between gap-2 p-2 hover:bg-gray-50 rounded-lg transition">
+            <div class="flex items-center gap-2">
+                <i class="fas fa-file-pdf text-red-500 text-lg"></i>
+                <span class="text-sm text-gray-700">Postgraduate Application Form</span>
+            </div>
+            <button onclick="downloadForm('postgraduate')" class="bg-red-600 hover:bg-red-700 text-white px-3 py-1.5 rounded text-sm flex items-center gap-1 transition">
+                <i class="fas fa-download text-xs"></i> Download
+            </button>
+        </div>
+        <div class="flex items-center justify-between gap-2 p-2 hover:bg-gray-50 rounded-lg transition">
+            <div class="flex items-center gap-2">
+                <i class="fas fa-file-pdf text-red-500 text-lg"></i>
+                <span class="text-sm text-gray-700">International Student Application Form</span>
+            </div>
+            <button onclick="downloadForm('international')" class="bg-red-600 hover:bg-red-700 text-white px-3 py-1.5 rounded text-sm flex items-center gap-1 transition">
+                <i class="fas fa-download text-xs"></i> Download
+            </button>
+        </div>
+        <div class="flex items-center justify-between gap-2 p-2 hover:bg-gray-50 rounded-lg transition">
+            <div class="flex items-center gap-2">
+                <i class="fas fa-file-invoice-dollar text-red-500 text-lg"></i>
+                <span class="text-sm text-gray-700">Fees Structure 2026/2027</span>
+            </div>
+            <button onclick="downloadForm('fees')" class="bg-red-600 hover:bg-red-700 text-white px-3 py-1.5 rounded text-sm flex items-center gap-1 transition">
+                <i class="fas fa-download text-xs"></i> Download
+            </button>
+        </div>
+        <div class="flex items-center justify-between gap-2 p-2 hover:bg-gray-50 rounded-lg transition">
+            <div class="flex items-center gap-2">
+                <i class="fas fa-file-pdf text-red-500 text-lg"></i>
+                <span class="text-sm text-gray-700">Scholarship Application Form</span>
+            </div>
+            <button onclick="downloadForm('scholarship')" class="bg-red-600 hover:bg-red-700 text-white px-3 py-1.5 rounded text-sm flex items-center gap-1 transition">
+                <i class="fas fa-download text-xs"></i> Download
+            </button>
+        </div>
+    </div>
+    <div class="flex gap-3">
+        <button onclick="downloadAllForms()" class="flex-1 bg-gray-800 text-white py-2 rounded-lg font-semibold hover:bg-gray-900 transition flex items-center justify-center gap-2 text-sm">
+            <i class="fas fa-download"></i> Download All
+        </button>
+        <button onclick="viewAllForms()" class="flex-1 bg-red-600 text-white py-2 rounded-lg font-semibold hover:bg-red-700 transition flex items-center justify-center gap-2 text-sm">
+            <i class="fas fa-eye"></i> View All
+        </button>
+    </div>
+</div>
+               
+</div>
+</div>
 
         <!-- Additional Info -->
         <div class="mt-8 bg-yellow-50 border-l-4 border-yellow-500 p-4 rounded">
@@ -830,6 +841,27 @@
             </div>
         </div>
 
+        <!-- Research Message -->
+        <div class="bg-gradient-to-r from-red-50 to-red-100 rounded-xl p-6 mb-8 border border-red-200">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+                <div class="flex items-center gap-3">
+                    <div class="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center">
+                        <i class="fas fa-microscope text-white text-xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-gray-800">Active Research Departments</h3>
+                        <p class="text-sm text-gray-600">Collaborative research initiatives across multiple disciplines</p>
+                    </div>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-white px-3 py-1 rounded-full text-xs font-semibold text-red-600 shadow-sm">Clinical Medicine</span>
+                    <span class="bg-white px-3 py-1 rounded-full text-xs font-semibold text-red-600 shadow-sm">Nursing & Midwifery</span>
+                    <span class="bg-white px-3 py-1 rounded-full text-xs font-semibold text-red-600 shadow-sm">Psycho-Social Counselling</span>
+                    <span class="bg-white px-3 py-1 rounded-full text-xs font-semibold text-red-600 shadow-sm">Public Health</span>
+                </div>
+            </div>
+        </div>
+
         <!-- Research Areas by Department -->
         <div class="mb-8">
             <div class="text-center mb-6">
@@ -850,6 +882,7 @@
                     <div class="flex flex-wrap gap-1">
                         <span class="bg-red-50 text-red-600 text-xs px-2 py-0.5 rounded">Malaria Research</span>
                         <span class="bg-red-50 text-red-600 text-xs px-2 py-0.5 rounded">HIV/AIDS</span>
+                        <span class="bg-red-50 text-red-600 text-xs px-2 py-0.5 rounded">Tuberculosis</span>
                     </div>
                 </div>
 
@@ -865,6 +898,7 @@
                     <div class="flex flex-wrap gap-1">
                         <span class="bg-red-50 text-red-600 text-xs px-2 py-0.5 rounded">Maternal Health</span>
                         <span class="bg-red-50 text-red-600 text-xs px-2 py-0.5 rounded">Child Care</span>
+                        <span class="bg-red-50 text-red-600 text-xs px-2 py-0.5 rounded">Nursing Education</span>
                     </div>
                 </div>
 
@@ -880,6 +914,7 @@
                     <div class="flex flex-wrap gap-1">
                         <span class="bg-red-50 text-red-600 text-xs px-2 py-0.5 rounded">Mental Health</span>
                         <span class="bg-red-50 text-red-600 text-xs px-2 py-0.5 rounded">Trauma Care</span>
+                        <span class="bg-red-50 text-red-600 text-xs px-2 py-0.5 rounded">Substance Abuse</span>
                     </div>
                 </div>
 
@@ -895,50 +930,61 @@
                     <div class="flex flex-wrap gap-1">
                         <span class="bg-red-50 text-red-600 text-xs px-2 py-0.5 rounded">Epidemiology</span>
                         <span class="bg-red-50 text-red-600 text-xs px-2 py-0.5 rounded">Health Policy</span>
+                        <span class="bg-red-50 text-red-600 text-xs px-2 py-0.5 rounded">Disease Prevention</span>
                     </div>
                 </div>
             </div>
         </div>
 
         <!-- Featured Research Projects -->
-        <div class="mb-8">
+        <!--<div class="mb-8">
             <div class="text-center mb-5">
                 <h3 class="text-xl font-bold text-gray-800">Featured <span class="text-red-600">Research</span></h3>
                 <div class="w-12 h-0.5 bg-red-600 mx-auto mt-1 rounded-full"></div>
+                <p class="text-gray-500 text-xs mt-2">Highlighted ongoing and completed research projects</p>
             </div>
             
             <div class="grid md:grid-cols-3 gap-4">
-                <div class="bg-white rounded-lg p-3 shadow-sm">
-                    <div class="flex items-start gap-2">
-                        <i class="fas fa-microscope text-red-600 text-base mt-0.5"></i>
+                <div class="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition">
+                    <div class="flex items-start gap-3">
+                        <div class="w-10 h-10 bg-red-100 rounded-full flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-microscope text-red-600 text-base"></i>
+                        </div>
                         <div>
                             <h4 class="font-semibold text-gray-800 text-sm">Malaria Prevention in Rural Communities</h4>
                             <p class="text-gray-500 text-xs mt-1">Department of Public Health</p>
+                            <p class="text-gray-400 text-xs mt-1">Investigating effective prevention strategies in rural Malawi</p>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg p-3 shadow-sm">
-                    <div class="flex items-start gap-2">
-                        <i class="fas fa-heartbeat text-red-600 text-base mt-0.5"></i>
+                <div class="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition">
+                    <div class="flex items-start gap-3">
+                        <div class="w-10 h-10 bg-red-100 rounded-full flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-heartbeat text-red-600 text-base"></i>
+                        </div>
                         <div>
                             <h4 class="font-semibold text-gray-800 text-sm">Maternal Mortality Reduction</h4>
                             <p class="text-gray-500 text-xs mt-1">Dept of Nursing & Midwifery</p>
+                            <p class="text-gray-400 text-xs mt-1">Research on interventions to reduce maternal deaths</p>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg p-3 shadow-sm">
-                    <div class="flex items-start gap-2">
-                        <i class="fas fa-hand-holding-heart text-red-600 text-base mt-0.5"></i>
+                <div class="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition">
+                    <div class="flex items-start gap-3">
+                        <div class="w-10 h-10 bg-red-100 rounded-full flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-hand-holding-heart text-red-600 text-base"></i>
+                        </div>
                         <div>
                             <h4 class="font-semibold text-gray-800 text-sm">Youth Mental Health Awareness</h4>
                             <p class="text-gray-500 text-xs mt-1">Dept of Psycho-Social Counselling</p>
+                            <p class="text-gray-400 text-xs mt-1">Addressing mental health challenges among youth</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
 
-        <!-- View More Button - NOW WORKING -->
+        <!-- View More Button -->
         <div class="text-center">
             <a href="{{ route('research') }}" class="inline-flex items-center gap-2 bg-red-600 text-white px-6 py-2.5 rounded-lg font-semibold hover:bg-red-700 transition shadow-md">
                 <i class="fas fa-search"></i>
@@ -948,6 +994,7 @@
         </div>
     </div>
 </section>
+
 
 <!--Students section -->
 <section id="students" class="py-16 px-4 md:px-16 bg-gray-50">
@@ -1066,24 +1113,29 @@
         </div>
 
         <!-- Additional Student Resources -->
-        <div class="grid md:grid-cols-4 gap-4 mb-8">
-            <div class="bg-white rounded-lg p-4 text-center hover:shadow-md transition">
-                <i class="fas fa-futbol text-red-600 text-2xl mb-2"></i>
-                <p class="font-medium text-gray-800 text-sm">Sports</p>
-            </div>
-            <div class="bg-white rounded-lg p-4 text-center hover:shadow-md transition">
-                <i class="fas fa-music text-red-600 text-2xl mb-2"></i>
-                <p class="font-medium text-gray-800 text-sm">Music & Arts</p>
-            </div>
-            <div class="bg-white rounded-lg p-4 text-center hover:shadow-md transition">
-                <i class="fas fa-handshake text-red-600 text-2xl mb-2"></i>
-                <p class="font-medium text-gray-800 text-sm">Volunteer Programs</p>
-            </div>
-            <div class="bg-white rounded-lg p-4 text-center hover:shadow-md transition">
-                <i class="fas fa-church text-red-600 text-2xl mb-2"></i>
-                <p class="font-medium text-gray-800 text-sm">Chaplaincy</p>
-            </div>
-        </div>
+        <div class="grid md:grid-cols-5 gap-4 mb-8">
+    <div class="bg-white rounded-lg p-4 text-center hover:shadow-md transition">
+        <i class="fas fa-futbol text-red-600 text-2xl mb-2"></i>
+        <p class="font-medium text-gray-800 text-sm">Sports</p>
+    </div>
+    <div class="bg-white rounded-lg p-4 text-center hover:shadow-md transition">
+        <i class="fas fa-music text-red-600 text-2xl mb-2"></i>
+        <p class="font-medium text-gray-800 text-sm">Music & Arts</p>
+    </div>
+    <div class="bg-white rounded-lg p-4 text-center hover:shadow-md transition">
+        <i class="fas fa-handshake text-red-600 text-2xl mb-2"></i>
+        <p class="font-medium text-gray-800 text-sm">Volunteer Programs</p>
+    </div>
+    <div class="bg-white rounded-lg p-4 text-center hover:shadow-md transition">
+        <i class="fas fa-heart text-red-600 text-2xl mb-2"></i>
+        <p class="font-medium text-gray-800 text-sm">Psychosocial Support</p>
+    </div>
+    <div class="bg-white rounded-lg p-4 text-center hover:shadow-md transition">
+        <i class="fas fa-church text-red-600 text-2xl mb-2"></i>
+        <p class="font-medium text-gray-800 text-sm">Chaplaincy</p>
+    </div>
+</div>
+      
 
         <!-- View More Button - Links to Students Page -->
         <div class="text-center">

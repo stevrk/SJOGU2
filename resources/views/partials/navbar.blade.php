@@ -262,7 +262,7 @@
     }
     
     /* Show mobile menu button and hide desktop nav below 1200px */
-    @media (max-width: 1200px) {
+    @media (max-width: 1000px) {
         .xl\:flex {
             display: none !important;
         }

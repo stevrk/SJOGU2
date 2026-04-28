@@ -42,6 +42,6 @@ class StaffController extends Controller
             ]
         ];
 
-        return view('pages/Staff.staff_page', compact('leadership'));
+        return view('pages.staff.staff_page', compact('leadership'));
     }
 }

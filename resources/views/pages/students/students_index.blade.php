@@ -78,7 +78,7 @@
             </p>
         </div>
 
-        <div class="grid md:grid-cols-4 gap-6">
+        <div class="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             <a href="#" class="bg-white rounded-xl p-6 text-center hover:shadow-lg transition border border-gray-100 group">
                 <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-red-600 transition">
                     <i class="fas fa-user-graduate text-red-600 text-2xl group-hover:text-white transition"></i>
@@ -93,13 +93,6 @@
                 <h3 class="font-bold text-gray-800">Academic Calendar</h3>
                 <p class="text-sm text-gray-500 mt-1">Important dates</p>
             </a>
-            <!--<a href="#" class="bg-white rounded-xl p-6 text-center hover:shadow-lg transition border border-gray-100 group">
-                <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-red-600 transition">
-                    <i class="fas fa-book text-red-600 text-2xl group-hover:text-white transition"></i>
-                </div>
-                <h3 class="font-bold text-gray-800">E-Learning</h3>
-                <p class="text-sm text-gray-500 mt-1">Online resources</p>
-            </a>-->
             <a href="#" class="bg-white rounded-xl p-6 text-center hover:shadow-lg transition border border-gray-100 group">
                 <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-red-600 transition">
                     <i class="fas fa-credit-card text-red-600 text-2xl group-hover:text-white transition"></i>
@@ -213,7 +206,7 @@
             </p>
         </div>
 
-        <div class="grid md:grid-cols-4 gap-6">
+        <div class="grid md:grid-cols-5 gap-6">
             <div class="bg-white rounded-xl p-6 text-center hover:shadow-lg transition">
                 <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-3">
                     <i class="fas fa-futbol text-red-600 text-2xl"></i>
@@ -237,6 +230,13 @@
             </div>
             <div class="bg-white rounded-xl p-6 text-center hover:shadow-lg transition">
                 <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                    <i class="fas fa-heart text-red-600 text-2xl"></i>
+                </div>
+                <h3 class="font-bold text-gray-800">Psychosocial Support</h3>
+                <p class="text-sm text-gray-500">Counseling, peer support, wellness programs</p>
+            </div>
+            <div class="bg-white rounded-xl p-6 text-center hover:shadow-lg transition">
+                <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-3">
                     <i class="fas fa-church text-red-600 text-2xl"></i>
                 </div>
                 <h3 class="font-bold text-gray-800">Chaplaincy</h3>
@@ -254,8 +254,8 @@
             <h2 class="text-2xl font-bold mb-2">Need Help?</h2>
             <p class="text-red-100 mb-4">Contact Student Affairs Office</p>
             <div class="space-y-2">
-                <p><i class="fas fa-phone-alt mr-2"></i> +265 123 456 789</p>
-                <p><i class="fas fa-envelope mr-2"></i> students@sjogu.edu</p>
+                <p><i class="fas fa-phone-alt mr-2"></i> +265 991 887 119</p>
+                <p><i class="fas fa-envelope mr-2"></i> collegehs@sjog.mw</p>
                 <p><i class="fas fa-clock mr-2"></i> Monday - Friday, 8:00 AM - 5:00 PM</p>
             </div>
         </div>
