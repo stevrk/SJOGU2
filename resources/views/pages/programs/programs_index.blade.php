@@ -52,7 +52,7 @@
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- Diploma in Clinical Medicine (Generic) -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition border border-gray-100">
-                    <img src="{{ asset('images/news2.jpg') }}" alt="Clinical Medicine" class="w-full h-48 object-cover">
+                    <img src="{{ asset('images/programs/clinical.jpg') }}" alt="Clinical Medicine" class="w-full h-48 object-cover">
                     <div class="p-5">
                         <div class="flex gap-2 mb-2">
                             <span class="bg-green-100 text-green-700 text-xs px-2 py-1 rounded">Generic</span>
@@ -71,7 +71,7 @@
 
                 <!-- Diploma in Clinical Medicine (Upgrading) -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition border border-gray-100">
-                    <img src="{{ asset('images/news2.jpg') }}" alt="Clinical Medicine Upgrading" class="w-full h-48 object-cover">
+                    <img src="{{ asset('images/programs/clinical1.jpg') }}" alt="Clinical Medicine Upgrading" class="w-full h-48 object-cover">
                     <div class="p-5">
                         <div class="flex gap-2 mb-2">
                             <span class="bg-orange-100 text-orange-700 text-xs px-2 py-1 rounded">Upgrading</span>
@@ -90,7 +90,7 @@
 
                 <!-- BSc Clinical Medicine - Mental Health (Upgrading) -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition border border-gray-100">
-                    <img src="{{ asset('images/clinical medicine_mental.jpeg') }}" alt="Mental Health" class="w-full h-48 object-cover">
+                    <img src="{{ asset('images/programs/clinical3.jpg') }}" alt="Mental Health" class="w-full h-48 object-cover">
                     <div class="p-5">
                         <div class="flex gap-2 mb-2">
                             <span class="bg-orange-100 text-orange-700 text-xs px-2 py-1 rounded">Upgrading</span>
@@ -120,7 +120,7 @@
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- BSc Nursing and Midwifery (Generic) -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition border border-gray-100">
-                    <img src="{{ asset('images/Nursing_stud.jpeg') }}" alt="Nursing and Midwifery" class="w-full h-48 object-cover">
+                    <img src="{{ asset('images/programs/nursing.jpg') }}" alt="Nursing and Midwifery" class="w-full h-48 object-cover">
                     <div class="p-5">
                         <div class="flex gap-2 mb-2">
                             <span class="bg-green-100 text-green-700 text-xs px-2 py-1 rounded">Generic</span>
@@ -139,7 +139,7 @@
 
                 <!-- BSc Mental Health Psychiatric Nursing (Upgrading) -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition border border-gray-100">
-                    <img src="{{ asset('images/Nursing_stud2.jpeg') }}" alt="Psychiatric Nursing" class="w-full h-48 object-cover">
+                    <img src="{{ asset('images/programs/nursing_up.jpg') }}" alt="Psychiatric Nursing" class="w-full h-48 object-cover">
                     <div class="p-5">
                         <div class="flex gap-2 mb-2">
                             <span class="bg-orange-100 text-orange-700 text-xs px-2 py-1 rounded">Upgrading</span>
@@ -169,7 +169,7 @@
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- BSc in Psychotherapy (Generic) -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition border border-gray-100">
-                    <img src="{{ asset('images/psycho.jpeg')}}" alt="Psychotherapy" class="w-full h-48 object-cover">
+                    <img src="{{ asset('images/programs/psychotherapy.jpg')}}" alt="Psychotherapy" class="w-full h-48 object-cover">
                     <div class="p-5">
                         <div class="flex gap-2 mb-2">
                             <span class="bg-green-100 text-green-700 text-xs px-2 py-1 rounded">Generic</span>
@@ -188,7 +188,7 @@
 
                 <!-- BSc in Psychotherapy (Upgrading) -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition border border-gray-100">
-                    <img src="{{ asset('images/psychotherapy1.jpeg') }}" alt="Psychotherapy Upgrading" class="w-full h-48 object-cover">
+                    <img src="{{ asset('images/programs/psychotherapy_up.jpg') }}" alt="Psychotherapy Upgrading" class="w-full h-48 object-cover">
                     <div class="p-5">
                         <div class="flex gap-2 mb-2">
                             <span class="bg-orange-100 text-orange-700 text-xs px-2 py-1 rounded">Upgrading</span>

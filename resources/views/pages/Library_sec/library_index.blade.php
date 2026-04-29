@@ -114,7 +114,7 @@
                 </div>
             </div>
             <div>
-                <img src="{{ asset('images/library.jpeg') }}" alt="Library Interior" class="rounded-xl shadow-lg w-full h-80 object-cover">
+                <img src="{{ asset('images/lib2.jpg') }}" alt="Library Interior" class="rounded-xl shadow-lg w-full h-80 object-cover">
             </div>
         </div>
     </div>

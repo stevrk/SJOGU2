@@ -201,7 +201,7 @@
                 </a>
             </li>
             <li>
-                <a href="/about" class="nav-link transition {{ request()->is('about') ? 'text-red-600 border-b-2 border-red-600 pb-1' : 'text-gray-700 hover:text-red-600' }}">
+                <a href="/About" class="nav-link transition {{ request()->is('about') ? 'text-red-600 border-b-2 border-red-600 pb-1' : 'text-gray-700 hover:text-red-600' }}">
                     About
                 </a>
             </li>

@@ -29,7 +29,7 @@ class ProgramsController extends Controller
                 'duration' => '3 Years',
                 'duration_semesters' => '6 Semesters',
                 'study_mode' => 'Full-time',
-                'image' => 'news2.jpg',
+                'image' => 'programs/clinical.jpg',
                 'overview' => 'Comprehensive training in clinical medicine preparing students for primary healthcare delivery. The program equips students with knowledge and skills to diagnose, treat, and manage common medical conditions.',
                 'structure' => [
                     'Year 1: Basic Sciences (Anatomy, Physiology, Biochemistry)',
@@ -56,7 +56,7 @@ class ProgramsController extends Controller
                 'duration' => '2 Years',
                 'duration_semesters' => '4 Semesters',
                 'study_mode' => 'Full-time',
-                'image' => 'news2.jpg',
+                'image' => 'programs/clinical1.jpg',
                 'overview' => 'Upgrading program for qualified Medical Assistants with Certificate in Clinical Medicine. Bridges knowledge gaps and enhances clinical competencies to Diploma level.',
                 'structure' => [
                     'Advanced Clinical Medicine',
@@ -87,7 +87,7 @@ class ProgramsController extends Controller
                 'duration' => '2 Years',
                 'duration_semesters' => '4 Semesters',
                 'study_mode' => 'Full-time',
-                'image' => 'clinical medicine_mental.jpeg',
+                'image' => 'programs/clinical3.jpg',
                 'overview' => 'Upgrading program for qualified Clinical Officers specializing in mental health. Focuses on psychiatric assessment, diagnosis, treatment, and mental health policy.',
                 'structure' => [
                     'Advanced Psychiatric Assessment',
@@ -118,7 +118,7 @@ class ProgramsController extends Controller
                 'duration' => '4 Years',
                 'duration_semesters' => '8 Semesters',
                 'study_mode' => 'Full-time',
-                'image' => 'Nursing_stud.jpeg',
+                'image' => 'programs/nursing.jpg',
                 'overview' => 'Professional nursing program combining theoretical knowledge with practical clinical skills. Students learn patient care, midwifery, community health nursing, and leadership skills.',
                 'structure' => [
                     'Year 1: Nursing Fundamentals, Anatomy, Physiology',
@@ -147,7 +147,7 @@ class ProgramsController extends Controller
                 'duration' => '2 Years',
                 'duration_semesters' => '4 Semesters',
                 'study_mode' => 'Full-time',
-                'image' => 'Nursing_stud2.jpeg',
+                'image' => 'programs/nursing_up.jpg',
                 'overview' => 'Advanced nursing program for Registered Nurses specializing in psychiatric and mental health care. Focuses on therapeutic interventions, mental health assessment, and patient management.',
                 'structure' => [
                     'Advanced Psychiatric Nursing',
@@ -178,7 +178,7 @@ class ProgramsController extends Controller
                 'duration' => '4 Years',
                 'duration_semesters' => '8 Semesters',
                 'study_mode' => 'Full-time',
-                'image' => 'psycho.jpeg',
+                'image' => 'programs/psychotherapy.jpg',
                 'overview' => 'Two exit points: Diploma in Psychosocial Counselling after 4 semesters, BSc in Psychotherapy after 8 semesters. Prepares students for professional counselling and psychotherapy practice.',
                 'structure' => [
                     'Year 1-2: Foundation in Counselling Skills',
@@ -207,7 +207,7 @@ class ProgramsController extends Controller
                 'duration' => '2 Years',
                 'duration_semesters' => '4 Semesters',
                 'study_mode' => 'Full-time',
-                'image' => 'psychotherapy1.jpeg',
+                'image' => 'programs/psychotherapy_up.jpg',
                 'overview' => 'Upgrading program for qualified Counsellors with Diploma in Psychosocial Counselling. Advanced training in psychotherapy techniques, mental health assessment, and therapeutic interventions.',
                 'structure' => [
                     'Advanced Psychotherapy Theories',

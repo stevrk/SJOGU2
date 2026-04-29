@@ -18,6 +18,7 @@
 </section>
 
 <!-- Small Gallery Section -->
+<!-- Small Gallery Section -->
 <section class="py-16 px-4 md:px-16 bg-white">
     <div class="container mx-auto">
         <div class="text-center mb-10">
@@ -28,32 +29,81 @@
             </p>
         </div>
 
-        <!-- Gallery Grid - 4 images -->
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <!-- Image 1 -->
+        <!-- Gallery Grid - All images -->
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            <!-- Existing Image 1 -->
             <div class="group relative overflow-hidden rounded-lg shadow-md cursor-pointer">
                 <img src="{{ asset('images/carausel/carausel3.jpg') }}" alt="Campus Life 1" class="w-full h-48 object-cover transition duration-300 group-hover:scale-110">
                 <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
                     <i class="fas fa-search-plus text-white text-2xl"></i>
                 </div>
             </div>
-            <!-- Image 2 -->
+            <!-- Existing Image 2 -->
             <div class="group relative overflow-hidden rounded-lg shadow-md cursor-pointer">
                 <img src="{{ asset('images/carausel/campus_life.jpg') }}" alt="Campus Life 2" class="w-full h-48 object-cover transition duration-300 group-hover:scale-110">
                 <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
                     <i class="fas fa-search-plus text-white text-2xl"></i>
                 </div>
             </div>
-            <!-- Image 3 -->
+            <!-- Existing Image 3 -->
             <div class="group relative overflow-hidden rounded-lg shadow-md cursor-pointer">
                 <img src="{{ asset('images/carausel/campus_life2.jpg') }}" alt="Campus Life 3" class="w-full h-48 object-cover transition duration-300 group-hover:scale-110">
                 <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
                     <i class="fas fa-search-plus text-white text-2xl"></i>
                 </div>
             </div>
-            <!-- Image 4 -->
+            <!-- Existing Image 4 -->
             <div class="group relative overflow-hidden rounded-lg shadow-md cursor-pointer">
                 <img src="{{ asset('images/carausel/computer_lab.jpg') }}" alt="Campus Life 4" class="w-full h-48 object-cover transition duration-300 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                    <i class="fas fa-search-plus text-white text-2xl"></i>
+                </div>
+            </div>
+            <!-- New Image 5 -->
+            <div class="group relative overflow-hidden rounded-lg shadow-md cursor-pointer">
+                <img src="{{ asset('images/students/student_life1.jpg') }}" alt="Student Life 5" class="w-full h-48 object-cover transition duration-300 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                    <i class="fas fa-search-plus text-white text-2xl"></i>
+                </div>
+            </div>
+            <!-- New Image 6 -->
+            <div class="group relative overflow-hidden rounded-lg shadow-md cursor-pointer">
+                <img src="{{ asset('images/students/student_life2.jpg') }}" alt="Student Life 6" class="w-full h-48 object-cover transition duration-300 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                    <i class="fas fa-search-plus text-white text-2xl"></i>
+                </div>
+            </div>
+            <!-- New Image 7 -->
+            <div class="group relative overflow-hidden rounded-lg shadow-md cursor-pointer">
+                <img src="{{ asset('images/students/student_life3.jpg') }}" alt="Student Life 7" class="w-full h-48 object-cover transition duration-300 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                    <i class="fas fa-search-plus text-white text-2xl"></i>
+                </div>
+            </div>
+            <!-- New Image 8 -->
+            <div class="group relative overflow-hidden rounded-lg shadow-md cursor-pointer">
+                <img src="{{ asset('images/students/student_life4.jpg') }}" alt="Student Life 8" class="w-full h-48 object-cover transition duration-300 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                    <i class="fas fa-search-plus text-white text-2xl"></i>
+                </div>
+            </div>
+            <!-- New Image 9 -->
+            <div class="group relative overflow-hidden rounded-lg shadow-md cursor-pointer">
+                <img src="{{ asset('images/students/student_life5.jpg') }}" alt="Student Life 9" class="w-full h-48 object-cover transition duration-300 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                    <i class="fas fa-search-plus text-white text-2xl"></i>
+                </div>
+            </div>
+            <!-- New Image 10 -->
+            <div class="group relative overflow-hidden rounded-lg shadow-md cursor-pointer">
+                <img src="{{ asset('images/students/student_life6.jpg') }}" alt="Student Life 10" class="w-full h-48 object-cover transition duration-300 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                    <i class="fas fa-search-plus text-white text-2xl"></i>
+                </div>
+            </div>
+            <!-- New Image 11 -->
+            <div class="group relative overflow-hidden rounded-lg shadow-md cursor-pointer">
+                <img src="{{ asset('images/students/student_life7.jpg') }}" alt="Student Life 11" class="w-full h-48 object-cover transition duration-300 group-hover:scale-110">
                 <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
                     <i class="fas fa-search-plus text-white text-2xl"></i>
                 </div>
@@ -62,7 +112,7 @@
 
         <!-- Gallery Caption -->
         <div class="text-center mt-6">
-            <p class="text-sm text-gray-500">Hover over images to enlarge • Click to view full size</p>
+            <p class="text-sm text-gray-500">Click on images to view full size • Hover to zoom</p>
         </div>
     </div>
 </section>
@@ -262,7 +312,7 @@
     </div>
 </section>
 
-<!-- Lightbox Script for Gallery (Optional) -->
+<!-- Lightbox Script for Gallery -->
 <script>
     // Simple lightbox functionality for gallery images
     document.querySelectorAll('.group.relative.overflow-hidden.rounded-lg').forEach(img => {

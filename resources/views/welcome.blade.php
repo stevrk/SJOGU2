@@ -47,7 +47,7 @@
             
             <!-- Slide 2 - Student Life -->
             <div class="carousel-slide" data-slide="1">
-                <img src="{{ asset('images/carausel/carausel6.jpg') }}" class="w-full h-full object-cover object-center opacity-50">
+                <img src="{{ asset('images/carausel/lib.jpg') }}" class="w-full h-full object-cover object-center opacity-50">
                 <div class="absolute inset-0 flex items-center">
                     <div class="text-left px-4 md:px-16 max-w-3xl">
                         <div class="inline-block bg-red-600/80 backdrop-blur-sm rounded-full px-3 md:px-4 py-0.5 md:py-1 mb-3 md:mb-4">
@@ -77,7 +77,7 @@
             
             <!-- Slide 3 - Academic Excellence -->
             <div class="carousel-slide" data-slide="2">
-                <img src="{{ asset('images/carausel/carausel3.jpg') }}" class="w-full h-full object-cover object-center opacity-50">
+                <img src="{{ asset('images/carausel/carausel6.jpg') }}" class="w-full h-full object-cover object-center opacity-50">
                 <div class="absolute inset-0 flex items-center">
                     <div class="text-left px-4 md:px-16 max-w-3xl">
                         <div class="inline-block bg-red-600/80 backdrop-blur-sm rounded-full px-3 md:px-4 py-0.5 md:py-1 mb-3 md:mb-4">
@@ -107,7 +107,7 @@
             
             <!-- Slide 4 - Call to Action / Enrollment -->
             <div class="carousel-slide" data-slide="3">
-                <img src="{{ asset('images/carausel/carausel7.jpg') }}" class="w-full h-full object-cover object-center opacity-50">
+                <img src="{{ asset('images/carausel/carausel_last.jpg') }}" class="w-full h-full object-cover object-center opacity-50">
                 <div class="absolute inset-0 flex items-center">
                     <div class="text-left px-4 md:px-16 max-w-3xl">
                         <div class="inline-block bg-red-600/80 backdrop-blur-sm rounded-full px-3 md:px-4 py-0.5 md:py-1 mb-3 md:mb-4">
@@ -153,128 +153,130 @@
         </div>
     </section>
     <!--Vs's Welcome Remarks-->
-    <section id="welcome" class="py-16 px-4 md:px-16 bg-white">
-        <div class="container mx-auto">
-        
-            <div class="text-center mb-12">
-                
-                <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-2">Vice Chancellor's <span class="text-red-600">Remarks</span></h2>
-                <div class="w-20 h-1 bg-red-600 mx-auto rounded-full"></div>
-                <p class="text-gray-500 max-w-2xl mx-auto mt-3">
-                    A warm welcome from the leader of our academic community
-                </p>
-            </div>
-
-            <div class="grid md:grid-cols-12 gap-8 items-stretch">
-                <!-- Left: Vice Chancellor's Photo -->
-                <div class="md:col-span-5">
-                    <div class="relative h-full">
-                        <!-- Main Image -->
-                        <div class="rounded-2xl overflow-hidden shadow-xl h-full">
-                            <img src="{{ asset('images/VC.jpeg') }}" alt="Vice Chancellor - Charles Masulani Mwale, PhD" class="w-full h-full object-cover min-h-[450px]">
-                        </div>
-                        
-                        <!-- Decorative Red Elements -->
-                        <div class="absolute -bottom-3 -right-3 w-24 h-24 bg-red-600 rounded-2xl -z-10 hidden md:block"></div>
-                        <div class="absolute -top-3 -left-3 w-20 h-20 bg-red-50 rounded-2xl -z-10 hidden md:block"></div>
-                        
-                        <!-- Quote Badge -->
-                        <div class="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm rounded-xl shadow-lg px-4 py-2 flex items-center gap-2">
-                            <i class="fas fa-quote-left text-red-600 text-sm"></i>
-                            <p class="text-xs font-semibold text-gray-700">Servant Leadership</p>
-                        </div>
-
-                        <!-- Years Badge -->
-                        <div class="absolute top-4 right-4 bg-red-600 rounded-xl px-3 py-1.5 shadow-lg">
-                            <p class="text-white text-xs font-bold">20+ Years</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Right: Welcome Message Content -->
-                <div class="md:col-span-7 flex flex-col justify-between">
-                    <div>
-                        <!-- Name & Title -->
-                        <div class="mb-5 text-center">
-                            <div class="flex items-center justify-center gap-2 mb-1">
-                                <i class="fas fa-crown text-yellow-500 text-xs"></i>
-                                <span class="text-red-600 text-xs font-semibold uppercase tracking-wider">University Leadership</span>
-                            </div>
-                            <h3 class="text-2xl md:text-3xl font-bold text-gray-800">Dr. Charles Masulani Mwale</h3>
-                            <div class="flex items-center justify-center gap-3 mt-1 flex-wrap">
-                                <p class="text-red-600 font-semibold">Vice Chancellor</p>
-                                <span class="text-gray-300">|</span>
-                                <div class="flex items-center gap-1">
-                                    <i class="fas fa-graduation-cap text-gray-400 text-xs"></i>
-                                    <span class="text-gray-500 text-sm">PhD, MSc, BSc</span>
-                                </div>
-                            </div>
-                        </div>
-                        
-
-                        <!-- Welcome Message Text - All text now centered -->
-                        <div class="space-y-3 text-gray-600 leading-relaxed text-[15px] text-center">
-                            <p class="flex items-center justify-center gap-2">
-                                <i class="fas fa-envelope-open-text text-red-500 text-xs"></i>
-                                <span class="font-medium text-gray-700">Dear Prospective Students, Parents, and Partners,</span>
-                            </p>
-                            <p class="text-center">
-                                It is my distinct honor and privilege to welcome you to <span class="font-semibold text-gray-800">St. John of God University (SJOGU)</span>. 
-                                As an institution rooted in the rich tradition of the Hospitaller Order of St. John of God, 
-                                we are committed to providing a transformative educational experience that blends academic 
-                                excellence with compassionate service.
-                            </p>
-                            <p class="text-center">
-                                At SJOGU, we believe that true education goes beyond textbooks and lectures. It is about nurturing 
-                                the whole person — intellectually, spiritually, and professionally. Our programs are designed to 
-                                equip you with the knowledge, skills, and values necessary to become a competent healthcare 
-                                professional who serves with dignity, respect, and compassion.
-                            </p>
-                            <p class="text-center">
-                                Whether you are joining us for the first time or continuing your academic journey, you will find 
-                                a supportive community dedicated to your success. Our experienced faculty, modern facilities, 
-                                and strong partnerships with healthcare institutions ensure that you receive a world-class 
-                                education right here in Malawi.
-                            </p>
-                            <div class="flex justify-center">
-                                <p class="italic text-gray-700 border-l-2 border-red-600 pl-3 inline-block text-center max-w-lg">
-                                    I invite you to explore all that SJOGU has to offer. Together, let us build a healthier, 
-                                    more compassionate future for our communities and beyond.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Call to Action Buttons + Signature - Centered -->
-                    <div>
-                        <div class="mt-6 flex flex-wrap gap-3 justify-center">
-                            <a href="#about" class="bg-red-600 text-white px-5 py-2.5 rounded-xl font-semibold hover:bg-red-700 transition flex items-center gap-2 shadow-md">
-                                Learn More <i class="fas fa-arrow-right text-xs"></i>
-                            </a>
-                            <a href="#Enroll" class="border-2 border-red-600 text-red-600 px-5 py-2.5 rounded-xl font-semibold hover:bg-red-600 hover:text-white transition flex items-center gap-2">
-                                Apply Now <i class="fas fa-user-graduate text-xs"></i>
-                            </a>
-                        </div>
-
-                        <!-- Signature Line - Centered -->
-                        <div class="mt-5 pt-4 border-t border-gray-100">
-                            <div class="flex items-center justify-center gap-3">
-                                <div class="w-8 h-8 bg-red-50 rounded-full flex items-center justify-center">
-                                    <i class="fas fa-pen-fancy text-red-500 text-sm"></i>
-                                </div>
-                                <div class="text-left">
-                                    <p class="text-gray-800 font-semibold text-sm">Dr. Charles Masulani Mwale, PhD</p>
-                                    <p class="text-gray-400 text-xs">Vice Chancellor, St John of God University</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+<section id="welcome" class="py-16 px-4 md:px-16 bg-white">
+    <div class="container mx-auto">
+    
+        <div class="text-center mb-12">
             
+            <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-2">Vice Chancellor's <span class="text-red-600">Remarks</span></h2>
+            <div class="w-20 h-1 bg-red-600 mx-auto rounded-full"></div>
+            <p class="text-gray-500 max-w-2xl mx-auto mt-3">
+                A warm welcome from the leader of our academic community
+            </p>
         </div>
-    </section>
+
+        <div class="grid md:grid-cols-12 gap-8 items-stretch">
+            <!-- Left: Vice Chancellor's Photo -->
+            <div class="md:col-span-5">
+                <div class="relative">
+                    <!-- Main Image - Responsive height: shorter on mobile, taller on desktop -->
+                    <div class="rounded-2xl overflow-hidden shadow-xl">
+                        <img src="{{ asset('images/staff/VC.jpg') }}" alt="Vice Chancellor - Charles Masulani Mwale, PhD" class="w-full h-[350px] md:h-[480px] object-cover object-top">
+                    </div>
+                    
+                    <!-- Decorative Red Elements -->
+                    <div class="absolute -bottom-3 -right-3 w-24 h-24 bg-red-600 rounded-2xl -z-10 hidden md:block"></div>
+                    <div class="absolute -top-3 -left-3 w-20 h-20 bg-red-50 rounded-2xl -z-10 hidden md:block"></div>
+                    
+                    <!-- Quote Badge -->
+                    <div class="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm rounded-xl shadow-lg px-4 py-2 flex items-center gap-2">
+                        <i class="fas fa-quote-left text-red-600 text-sm"></i>
+                        <p class="text-xs font-semibold text-gray-700">Servant Leadership</p>
+                    </div>
+
+                    <!-- Years Badge -->
+                    <div class="absolute top-4 right-4 bg-red-600 rounded-xl px-3 py-1.5 shadow-lg">
+                        <p class="text-white text-xs font-bold">20+ Years</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right: Welcome Message Content -->
+            <div class="md:col-span-7 flex flex-col justify-between">
+                <div>
+                    <!-- Name & Title -->
+                    <div class="mb-5 text-center">
+                        <div class="flex items-center justify-center gap-2 mb-1">
+                            <i class="fas fa-crown text-yellow-500 text-xs"></i>
+                            <span class="text-red-600 text-xs font-semibold uppercase tracking-wider">University Leadership</span>
+                        </div>
+                        <h3 class="text-2xl md:text-3xl font-bold text-gray-800">Dr. Charles Masulani Mwale</h3>
+                        <div class="flex items-center justify-center gap-3 mt-1 flex-wrap">
+                            <p class="text-red-600 font-semibold">Vice Chancellor</p>
+                            <span class="text-gray-300">|</span>
+                            <div class="flex items-center gap-1">
+                                <i class="fas fa-graduation-cap text-gray-400 text-xs"></i>
+                                <span class="text-gray-500 text-sm">PhD, MSc, BSc</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <!-- Welcome Message Text - All text now centered -->
+                    <div class="space-y-3 text-gray-600 leading-relaxed text-[15px] text-center">
+                        <p class="flex items-center justify-center gap-2">
+                            <i class="fas fa-envelope-open-text text-red-500 text-xs"></i>
+                            <span class="font-medium text-gray-700">Dear Prospective Students, Parents, and Partners,</span>
+                        </p>
+                        <p class="text-center">
+                            It is my distinct honor and privilege to welcome you to <span class="font-semibold text-gray-800">St. John of God University (SJOGU)</span>. 
+                            As an institution rooted in the rich tradition of the Hospitaller Order of St. John of God, 
+                            we are committed to providing a transformative educational experience that blends academic 
+                            excellence with compassionate service.
+                        </p>
+                        <p class="text-center">
+                            At SJOGU, we believe that true education goes beyond textbooks and lectures. It is about nurturing 
+                            the whole person — intellectually, spiritually, and professionally. Our programs are designed to 
+                            equip you with the knowledge, skills, and values necessary to become a competent healthcare 
+                            professional who serves with dignity, respect, and compassion.
+                        </p>
+                        <p class="text-center">
+                            Whether you are joining us for the first time or continuing your academic journey, you will find 
+                            a supportive community dedicated to your success. Our experienced faculty, modern facilities, 
+                            and strong partnerships with healthcare institutions ensure that you receive a world-class 
+                            education right here in Malawi.
+                        </p>
+                        <div class="flex justify-center">
+                            <p class="italic text-gray-700 border-l-2 border-red-600 pl-3 inline-block text-center max-w-lg">
+                                I invite you to explore all that SJOGU has to offer. Together, let us build a healthier, 
+                                more compassionate future for our communities and beyond.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Call to Action Buttons + Signature - Centered -->
+                <div>
+                    <div class="mt-6 flex flex-wrap gap-3 justify-center">
+                        <a href="#about" class="bg-red-600 text-white px-5 py-2.5 rounded-xl font-semibold hover:bg-red-700 transition flex items-center gap-2 shadow-md">
+                            Learn More <i class="fas fa-arrow-right text-xs"></i>
+                        </a>
+                        <a href="#Enroll" class="border-2 border-red-600 text-red-600 px-5 py-2.5 rounded-xl font-semibold hover:bg-red-600 hover:text-white transition flex items-center gap-2">
+                            Apply Now <i class="fas fa-user-graduate text-xs"></i>
+                        </a>
+                    </div>
+
+                    <!-- Signature Line - Centered -->
+                    <div class="mt-5 pt-4 border-t border-gray-100">
+                        <div class="flex items-center justify-center gap-3">
+                            <div class="w-8 h-8 bg-red-50 rounded-full flex items-center justify-center">
+                                <i class="fas fa-pen-fancy text-red-500 text-sm"></i>
+                            </div>
+                            <div class="text-left">
+                                <p class="text-gray-800 font-semibold text-sm">Dr. Charles Masulani Mwale, PhD</p>
+                                <p class="text-gray-400 text-xs">Vice Chancellor, St John of God University</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+</section>
+    
+   
     <!-- NEWS & ANNOUNCEMENTS SECTION -->
     <section id="News" class="py-16 px-4 md:px-16 bg-gray-50">
         <div class="container mx-auto">
@@ -593,7 +595,7 @@
                 </div>
                 <div class="p-6 text-center">
                     <div class="w-48 h-48 lg:w-56 lg:h-56 mx-auto mb-4 overflow-hidden bg-gray-200 rounded-lg">
-                        <img src="{{ asset('images/VC.jpeg') }}" alt="Charles Masulani Mwale, PhD" class="w-full h-full object-cover">
+                        <img src="{{ asset('images/staff/VC.jpg') }}" alt="Charles Masulani Mwale, PhD" class="w-full h-full object-cover">
                     </div>
                     <h4 class="text-xl font-bold text-gray-800">Charles Masulani Mwale, PhD</h4>
                     <p class="text-red-600 text-sm mb-3">Vice Chancellor</p>
@@ -608,7 +610,7 @@
                 </div>
                 <div class="p-6 text-center">
                     <div class="w-48 h-48 lg:w-56 lg:h-56 mx-auto mb-4 overflow-hidden bg-gray-200 rounded-lg">
-                        <img src="{{ asset('images/Registrar.jpeg') }}" alt="Esmie Mkwinda, PhD" class="w-full h-full object-cover">
+                        <img src="{{ asset('images/staff/DVC.jpg') }}" alt="Esmie Mkwinda, PhD" class="w-full h-full object-cover">
                     </div>
                     <h4 class="text-xl font-bold text-gray-800">Esmie Mkwinda, PhD</h4>
                     <p class="text-red-600 text-sm mb-3">Deputy Vice Chancellor</p>
@@ -623,7 +625,7 @@
                 </div>
                 <div class="p-6 text-center">
                     <div class="w-48 h-48 lg:w-56 lg:h-56 mx-auto mb-4 overflow-hidden bg-gray-200 rounded-lg">
-                        <img src="{{ asset('images/Dean.jpeg') }}" alt="Chimwemwe Munthali" class="w-full h-full object-cover">
+                        <img src="{{ asset('images/staff/Dean of faculty.jpg') }}" alt="Chimwemwe Munthali" class="w-full h-full object-cover">
                     </div>
                     <h4 class="text-xl font-bold text-gray-800">Chimwemwe Munthali, Msc</h4>
                     <p class="text-red-600 text-sm mb-3">Dean of Faculty</p>

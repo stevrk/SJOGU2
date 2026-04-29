@@ -25,25 +25,26 @@
             </p>
         </div>
 
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             <!-- Vice Chancellor -->
-            <div class="bg-gray-50 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition group">
-                <div class="h-64 overflow-hidden bg-gray-200 flex items-center justify-center">
-                    @if(file_exists(public_path('images/VC.jpeg')))
-                        <img src="{{ asset('images/VC.jpeg') }}" 
-                             alt="Dr. Charles Masulani Mwale" 
-                             class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
-                    @else
-                        <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-red-100 to-red-200">
-                            <i class="fas fa-user-tie text-6xl text-red-400"></i>
-                        </div>
-                    @endif
+            <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition border border-gray-100">
+                <div class="bg-red-600 px-6 py-4">
+                    <h3 class="text-xl font-bold text-white">Vice Chancellor</h3>
                 </div>
                 <div class="p-6 text-center">
-                    <h3 class="text-xl font-bold text-gray-800 mb-1">Dr. Charles Masulani Mwale</h3>
-                    <p class="text-red-600 font-semibold mb-2">Vice Chancellor</p>
-                    <p class="text-sm text-gray-500 mb-1">PhD, MSc, BSc</p>
-                    <p class="text-gray-600 text-sm mt-3">Leading the university with vision and excellence in higher education.</p>
+                    <div class="w-48 h-48 lg:w-56 lg:h-56 mx-auto mb-4 overflow-hidden bg-gray-200 rounded-lg">
+                        @if(file_exists(public_path('images/staff/VC.jpg')))
+                            <img src="{{ asset('images/staff/VC.jpg') }}" alt="Charles Masulani Mwale, PhD" class="w-full h-full object-cover">
+                        @else
+                            <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-red-100 to-red-200">
+                                <i class="fas fa-user-tie text-5xl text-red-400"></i>
+                            </div>
+                        @endif
+                    </div>
+                    <h4 class="text-xl font-bold text-gray-800">Prof. Charles Masulani Mwale, PhD</h4>
+                    <p class="text-red-600 text-sm mb-2">Vice Chancellor</p>
+                    <p class="text-sm text-gray-500 mb-3">PhD, MSc, BSc</p>
+                    <p class="text-gray-600 text-sm">Leading the university with vision and excellence in higher education.</p>
                     <div class="mt-4 flex justify-center gap-3">
                         <a href="mailto:vc@sjogu.edu" class="text-red-600 hover:text-red-700 transition">
                             <i class="fas fa-envelope"></i>
@@ -56,23 +57,24 @@
             </div>
 
             <!-- Deputy Vice Chancellor -->
-            <div class="bg-gray-50 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition group">
-                <div class="h-64 overflow-hidden bg-gray-200 flex items-center justify-center">
-                    @if(file_exists(public_path('images/Registrar.jpeg')))
-                        <img src="{{ asset('images/Registrar.jpeg') }}" 
-                             alt="Dr. Esmie Mkwinda" 
-                             class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
-                    @else
-                        <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-red-100 to-red-200">
-                            <i class="fas fa-user-tie text-6xl text-red-400"></i>
-                        </div>
-                    @endif
+            <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition border border-gray-100">
+                <div class="bg-red-600 px-6 py-4">
+                    <h3 class="text-xl font-bold text-white">Deputy Vice Chancellor</h3>
                 </div>
                 <div class="p-6 text-center">
-                    <h3 class="text-xl font-bold text-gray-800 mb-1">Dr. Esmie Mkwinda</h3>
-                    <p class="text-red-600 font-semibold mb-2">Deputy Vice Chancellor</p>
-                    <p class="text-sm text-gray-500 mb-1">PhD</p>
-                    <p class="text-gray-600 text-sm mt-3">Supporting the Vice Chancellor in academic and administrative leadership.</p>
+                    <div class="w-48 h-48 lg:w-56 lg:h-56 mx-auto mb-4 overflow-hidden bg-gray-200 rounded-lg">
+                        @if(file_exists(public_path('images/staff/DVC.jpg')))
+                            <img src="{{ asset('images/staff/DVC.jpg') }}" alt="Prof. Esmie Mkwinda, PhD" class="w-full h-full object-cover">
+                        @else
+                            <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-red-100 to-red-200">
+                                <i class="fas fa-user-tie text-5xl text-red-400"></i>
+                            </div>
+                        @endif
+                    </div>
+                    <h4 class="text-xl font-bold text-gray-800">Prof. Esmie Mkwinda, PhD</h4>
+                    <p class="text-red-600 text-sm mb-2">Deputy Vice Chancellor</p>
+                    <p class="text-sm text-gray-500 mb-3">PhD</p>
+                    <p class="text-gray-600 text-sm">Supporting the Vice Chancellor in academic and administrative leadership.</p>
                     <div class="mt-4 flex justify-center gap-3">
                         <a href="mailto:dvc@sjogu.edu" class="text-red-600 hover:text-red-700 transition">
                             <i class="fas fa-envelope"></i>
@@ -85,23 +87,24 @@
             </div>
 
             <!-- Dean of Faculty -->
-            <div class="bg-gray-50 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition group">
-                <div class="h-64 overflow-hidden bg-gray-200 flex items-center justify-center">
-                    @if(file_exists(public_path('images/Dean.jpeg')))
-                        <img src="{{ asset('images/Dean.jpeg') }}" 
-                             alt="Chimwemwe Munthali" 
-                             class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
-                    @else
-                        <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-red-100 to-red-200">
-                            <i class="fas fa-chalkboard-user text-6xl text-red-400"></i>
-                        </div>
-                    @endif
+            <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition border border-gray-100">
+                <div class="bg-red-600 px-6 py-4">
+                    <h3 class="text-xl font-bold text-white">Dean of Faculty</h3>
                 </div>
                 <div class="p-6 text-center">
-                    <h3 class="text-xl font-bold text-gray-800 mb-1">Chimwemwe Munthali</h3>
-                    <p class="text-red-600 font-semibold mb-2">Dean of Faculty</p>
-                    <p class="text-sm text-gray-500 mb-1">MSc</p>
-                    <p class="text-gray-600 text-sm mt-3">Overseeing academic programs and faculty development.</p>
+                    <div class="w-48 h-48 lg:w-56 lg:h-56 mx-auto mb-4 overflow-hidden bg-gray-200 rounded-lg">
+                        @if(file_exists(public_path('images/staff/Dean of faculty.jpg')))
+                            <img src="{{ asset('images/staff/Dean of faculty.jpg') }}" alt="Chimwemwe Munthali, MSc" class="w-full h-full object-cover">
+                        @else
+                            <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-red-100 to-red-200">
+                                <i class="fas fa-chalkboard-user text-5xl text-red-400"></i>
+                            </div>
+                        @endif
+                    </div>
+                    <h4 class="text-xl font-bold text-gray-800">Chimwemwe Munthali, MSc</h4>
+                    <p class="text-red-600 text-sm mb-2">Dean of Faculty</p>
+                    <p class="text-sm text-gray-500 mb-3">MSc</p>
+                    <p class="text-gray-600 text-sm">Overseeing academic programs and faculty development.</p>
                     <div class="mt-4 flex justify-center gap-3">
                         <a href="mailto:dean@sjogu.edu" class="text-red-600 hover:text-red-700 transition">
                             <i class="fas fa-envelope"></i>
@@ -116,122 +119,284 @@
     </div>
 </section>
 
-<!-- Department of Clinical Medicine - Coming Soon -->
+<!-- Administrative Leadership -->
 <section class="py-16 px-4 md:px-16 bg-gray-50">
-    <div class="container mx-auto">
-        <div class="flex items-center gap-3 mb-6">
-            <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center">
-                <i class="fas fa-stethoscope text-red-600 text-xl"></i>
-            </div>
-            <div>
-                <h2 class="text-2xl md:text-3xl font-bold text-gray-800">Department of Clinical Medicine</h2>
-                <p class="text-sm text-gray-600">Academic Staff</p>
-            </div>
-        </div>
-        
-        <div class="bg-white rounded-xl shadow-md overflow-hidden">
-            <div class="p-12 text-center">
-                <div class="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <i class="fas fa-users text-3xl text-gray-400"></i>
-                </div>
-                <h3 class="text-xl font-semibold text-gray-800 mb-2">Staff Members Coming Soon</h3>
-                <p class="text-gray-500 max-w-md mx-auto">
-                    The department staff directory is currently being updated. Please check back soon for the complete list of our distinguished faculty members.
-                </p>
-                <div class="mt-4 inline-flex items-center gap-2 text-red-600">
-                    <i class="fas fa-clock"></i>
-                    <span class="text-sm">Coming Soon</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Department of Nursing and Midwifery - Coming Soon -->
-<section class="py-16 px-4 md:px-16 bg-white">
-    <div class="container mx-auto">
-        <div class="flex items-center gap-3 mb-6">
-            <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center">
-                <i class="fas fa-hand-holding-heart text-red-600 text-xl"></i>
-            </div>
-            <div>
-                <h2 class="text-2xl md:text-3xl font-bold text-gray-800">Department of Nursing and Midwifery</h2>
-                <p class="text-sm text-gray-600">Academic Staff</p>
-            </div>
-        </div>
-        
-        <div class="bg-gray-50 rounded-xl shadow-md overflow-hidden">
-            <div class="p-12 text-center">
-                <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-4">
-                    <i class="fas fa-user-nurse text-3xl text-gray-400"></i>
-                </div>
-                <h3 class="text-xl font-semibold text-gray-800 mb-2">Staff Members Coming Soon</h3>
-                <p class="text-gray-500 max-w-md mx-auto">
-                    The department staff directory is currently being updated. Please check back soon for the complete list of our distinguished faculty members.
-                </p>
-                <div class="mt-4 inline-flex items-center gap-2 text-red-600">
-                    <i class="fas fa-clock"></i>
-                    <span class="text-sm">Coming Soon</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Department of Psycho-Social Counselling - Coming Soon -->
-<section class="py-16 px-4 md:px-16 bg-gray-50">
-    <div class="container mx-auto">
-        <div class="flex items-center gap-3 mb-6">
-            <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center">
-                <i class="fas fa-brain text-red-600 text-xl"></i>
-            </div>
-            <div>
-                <h2 class="text-2xl md:text-3xl font-bold text-gray-800">Department of Psycho-Social Counselling</h2>
-                <p class="text-sm text-gray-600">Academic Staff</p>
-            </div>
-        </div>
-        
-        <div class="bg-white rounded-xl shadow-md overflow-hidden">
-            <div class="p-12 text-center">
-                <div class="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <i class="fas fa-comments text-3xl text-gray-400"></i>
-                </div>
-                <h3 class="text-xl font-semibold text-gray-800 mb-2">Staff Members Coming Soon</h3>
-                <p class="text-gray-500 max-w-md mx-auto">
-                    The department staff directory is currently being updated. Please check back soon for the complete list of our distinguished faculty members.
-                </p>
-                <div class="mt-4 inline-flex items-center gap-2 text-red-600">
-                    <i class="fas fa-clock"></i>
-                    <span class="text-sm">Coming Soon</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Administrative & Support Staff - Coming Soon -->
-<section class="py-16 px-4 md:px-16 bg-white">
     <div class="container mx-auto">
         <div class="text-center mb-12">
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Administrative & <span class="text-red-600">Support Staff</span></h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Administrative <span class="text-red-600">Leadership</span></h2>
             <div class="w-20 h-1 bg-red-600 mx-auto rounded-full mb-4"></div>
             <p class="text-gray-600 max-w-2xl mx-auto">
-                The dedicated team keeping our university running smoothly
+                Key administrative leaders supporting university operations
             </p>
         </div>
 
-        <div class="bg-gray-50 rounded-xl shadow-md overflow-hidden">
-            <div class="p-12 text-center">
-                <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-4">
-                    <i class="fas fa-building text-3xl text-gray-400"></i>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+            <!-- Registrar -->
+            <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition border border-gray-100">
+                <div class="bg-red-600 px-6 py-4">
+                    <h3 class="text-xl font-bold text-white">Registrar</h3>
                 </div>
-                <h3 class="text-xl font-semibold text-gray-800 mb-2">Administrative Staff Directory Coming Soon</h3>
-                <p class="text-gray-500 max-w-md mx-auto">
-                    Our administrative and support staff directory is currently being compiled. Please check back soon for the complete list.
-                </p>
-                <div class="mt-4 inline-flex items-center gap-2 text-red-600">
-                    <i class="fas fa-clock"></i>
-                    <span class="text-sm">Coming Soon</span>
+                <div class="p-6 text-center">
+                    <div class="w-48 h-48 lg:w-56 lg:h-56 mx-auto mb-4 overflow-hidden bg-gray-200 rounded-lg">
+                        @if(file_exists(public_path('images/staff/registrar.jpg')))
+                            <img src="{{ asset('images/staff/registrar.jpg') }}" alt="Chisomo Chithyola" class="w-full h-full object-cover">
+                        @else
+                            <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-red-100 to-red-200">
+                                <i class="fas fa-user-tie text-5xl text-red-400"></i>
+                            </div>
+                        @endif
+                    </div>
+                    <h4 class="text-xl font-bold text-gray-800">Chisomo Chithyola</h4>
+                    <p class="text-red-600 text-sm mb-2">Registrar</p>
+                    <p class="text-sm text-gray-500 mb-3">MBA</p>
+                    <p class="text-gray-600 text-sm">Managing student records, admissions, and academic registrations.</p>
+                    <div class="mt-4 flex justify-center gap-3">
+                        <a href="mailto:registrar@sjogu.edu" class="text-red-600 hover:text-red-700 transition">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+265123456789" class="text-red-600 hover:text-red-700 transition">
+                            <i class="fas fa-phone-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Director of Quality Assurance -->
+            <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition border border-gray-100">
+                <div class="bg-red-600 px-6 py-4">
+                    <h3 class="text-xl font-bold text-white">Quality Assurance</h3>
+                </div>
+                <div class="p-6 text-center">
+                    <div class="w-48 h-48 lg:w-56 lg:h-56 mx-auto mb-4 overflow-hidden bg-gray-200 rounded-lg">
+                        @if(file_exists(public_path('images/staff/quality assuarance.jpg')))
+                            <img src="{{ asset('images/staff/quality assuarance.jpg') }}" alt="Zione Mugala" class="w-full h-full object-cover">
+                        @else
+                            <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-red-100 to-red-200">
+                                <i class="fas fa-clipboard-list text-5xl text-red-400"></i>
+                            </div>
+                        @endif
+                    </div>
+                    <h4 class="text-xl font-bold text-gray-800">Zione Mugala</h4>
+                    <p class="text-red-600 text-sm mb-2">Director of Quality Assurance</p>
+                    <p class="text-sm text-gray-500 mb-3">MSc</p>
+                    <p class="text-gray-600 text-sm">Ensuring academic standards and institutional quality compliance.</p>
+                    <div class="mt-4 flex justify-center gap-3">
+                        <a href="mailto:qa@sjogu.edu" class="text-red-600 hover:text-red-700 transition">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+265123456789" class="text-red-600 hover:text-red-700 transition">
+                            <i class="fas fa-phone-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- University Librarian -->
+            <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition border border-gray-100">
+                <div class="bg-red-600 px-6 py-4">
+                    <h3 class="text-xl font-bold text-white">Library Services</h3>
+                </div>
+                <div class="p-6 text-center">
+                    <div class="w-48 h-48 lg:w-56 lg:h-56 mx-auto mb-4 overflow-hidden bg-gray-200 rounded-lg">
+                        @if(file_exists(public_path('images/staff/librarian.jpg')))
+                            <img src="{{ asset('images/staff/librarian.jpg') }}" alt="Robert Chalochiwawa" class="w-full h-full object-cover">
+                        @else
+                            <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-red-100 to-red-200">
+                                <i class="fas fa-book text-5xl text-red-400"></i>
+                            </div>
+                        @endif
+                    </div>
+                    <h4 class="text-xl font-bold text-gray-800">Robert Chalochiwawa</h4>
+                    <p class="text-red-600 text-sm mb-2">University Librarian</p>
+                    <p class="text-gray-600 text-sm">Managing library resources, digital archives, and research support services.</p>
+                    <div class="mt-4 flex justify-center gap-3">
+                        <a href="mailto:library@sjogu.edu" class="text-red-600 hover:text-red-700 transition">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+265123456789" class="text-red-600 hover:text-red-700 transition">
+                            <i class="fas fa-phone-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Academic Department Heads -->
+<section class="py-16 px-4 md:px-16 bg-white">
+    <div class="container mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Department <span class="text-red-600">Heads</span></h2>
+            <div class="w-20 h-1 bg-red-600 mx-auto rounded-full mb-4"></div>
+            <p class="text-gray-600 max-w-2xl mx-auto">
+                Academic department leaders driving excellence in their respective fields
+            </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+            <!-- Head of Clinical Medicine -->
+            <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition border border-gray-100">
+                <div class="bg-red-600 px-6 py-4">
+                    <h3 class="text-xl font-bold text-white">Clinical Medicine</h3>
+                </div>
+                <div class="p-6 text-center">
+                    <div class="w-48 h-48 lg:w-56 lg:h-56 mx-auto mb-4 overflow-hidden bg-gray-200 rounded-lg">
+                        @if(file_exists(public_path('images/staff/HOD CM.jpg')))
+                            <img src="{{ asset('images/staff/HOD CM.jpg') }}" alt="Silvester Malunga" class="w-full h-full object-cover">
+                        @else
+                            <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-red-100 to-red-200">
+                                <i class="fas fa-stethoscope text-5xl text-red-400"></i>
+                            </div>
+                        @endif
+                    </div>
+                    <h4 class="text-xl font-bold text-gray-800">Silvester Malunga, MSc</h4>
+                    <p class="text-red-600 text-sm mb-2">Head of Department</p>
+                    <p class="text-sm text-gray-500 mb-3">MSc</p>
+                    <p class="text-gray-600 text-sm">Leading the Clinical Medicine department with expertise in medical education.</p>
+                    <div class="mt-4 flex justify-center gap-3">
+                        <a href="mailto:clinical@sjogu.edu" class="text-red-600 hover:text-red-700 transition">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+265123456789" class="text-red-600 hover:text-red-700 transition">
+                            <i class="fas fa-phone-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Head of Nursing and Midwifery -->
+            <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition border border-gray-100">
+                <div class="bg-red-600 px-6 py-4">
+                    <h3 class="text-xl font-bold text-white">Nursing & Midwifery</h3>
+                </div>
+                <div class="p-6 text-center">
+                    <div class="w-48 h-48 lg:w-56 lg:h-56 mx-auto mb-4 overflow-hidden bg-gray-200 rounded-lg">
+                        @if(file_exists(public_path('images/staff/HOD NM.jpg')))
+                            <img src="{{ asset('images/staff/HOD NM.jpg') }}" alt="Meryiam Banda" class="w-full h-full object-cover">
+                        @else
+                            <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-red-100 to-red-200">
+                                <i class="fas fa-hand-holding-heart text-5xl text-red-400"></i>
+                            </div>
+                        @endif
+                    </div>
+                    <h4 class="text-xl font-bold text-gray-800">Meryiam Banda, MSc</h4>
+                    <p class="text-red-600 text-sm mb-2">Head of Department</p>
+                    <p class="text-sm text-gray-500 mb-3">MSc</p>
+                    <p class="text-gray-600 text-sm">Leading the Nursing and Midwifery department with clinical excellence.</p>
+                    <div class="mt-4 flex justify-center gap-3">
+                        <a href="mailto:nursing@sjogu.edu" class="text-red-600 hover:text-red-700 transition">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+265123456789" class="text-red-600 hover:text-red-700 transition">
+                            <i class="fas fa-phone-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Head of Psycho-Social Counselling -->
+            <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition border border-gray-100">
+                <div class="bg-red-600 px-6 py-4">
+                    <h3 class="text-xl font-bold text-white">Psycho-Social Counselling</h3>
+                </div>
+                <div class="p-6 text-center">
+                    <div class="w-48 h-48 lg:w-56 lg:h-56 mx-auto mb-4 overflow-hidden bg-gray-200 rounded-lg">
+                        @if(file_exists(public_path('images/staff/HOD PC.jpg')))
+                            <img src="{{ asset('images/staff/HOD PC.jpg') }}" alt="Tendai Machaya" class="w-full h-full object-cover">
+                        @else
+                            <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-red-100 to-red-200">
+                                <i class="fas fa-brain text-5xl text-red-400"></i>
+                            </div>
+                        @endif
+                    </div>
+                    <h4 class="text-xl font-bold text-gray-800">Tendai Machaya, MA</h4>
+                    <p class="text-red-600 text-sm mb-2">Head of Department</p>
+                    <p class="text-sm text-gray-500 mb-3">MA</p>
+                    <p class="text-gray-600 text-sm">Leading the Psycho-Social Counselling department with expertise in mental health.</p>
+                    <div class="mt-4 flex justify-center gap-3">
+                        <a href="mailto:counselling@sjogu.edu" class="text-red-600 hover:text-red-700 transition">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+265123456789" class="text-red-600 hover:text-red-700 transition">
+                            <i class="fas fa-phone-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Specialized Faculty -->
+<section class="py-16 px-4 md:px-16 bg-gray-50">
+    <div class="container mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Specialized <span class="text-red-600">Faculty</span></h2>
+            <div class="w-20 h-1 bg-red-600 mx-auto rounded-full mb-4"></div>
+            <p class="text-gray-600 max-w-2xl mx-auto">
+                Distinguished faculty members contributing to academic excellence
+            </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+            <!-- Seed Global Educator -->
+            <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition border border-gray-100">
+                <div class="bg-red-600 px-6 py-4">
+                    <h3 class="text-xl font-bold text-white">Seed Global Health</h3>
+                </div>
+                <div class="p-6 text-center">
+                    <div class="w-48 h-48 lg:w-56 lg:h-56 mx-auto mb-4 overflow-hidden bg-gray-200 rounded-lg">
+                        @if(file_exists(public_path('images/staff/seed global.jpg')))
+                            <img src="{{ asset('images/staff/seed global.jpg') }}" alt="Geldine Chironda" class="w-full h-full object-cover">
+                        @else
+                            <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-red-100 to-red-200">
+                                <i class="fas fa-globe-africa text-5xl text-red-400"></i>
+                            </div>
+                        @endif
+                    </div>
+                    <h4 class="text-xl font-bold text-gray-800">Dr. Geldine Chironda, PhD</h4>
+                    <p class="text-red-600 text-sm mb-2">Seed Global Educator</p>
+                    <p class="text-sm text-gray-500 mb-3">PhD</p>
+                    <p class="text-gray-600 text-sm">International educator enhancing healthcare training through global partnerships.</p>
+                    <div class="mt-4 flex justify-center gap-3">
+                        <a href="mailto:geldine@sjogu.edu" class="text-red-600 hover:text-red-700 transition">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+265123456789" class="text-red-600 hover:text-red-700 transition">
+                            <i class="fas fa-phone-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Head of Basic Sciences -->
+            <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition border border-gray-100">
+                <div class="bg-red-600 px-6 py-4">
+                    <h3 class="text-xl font-bold text-white">Basic Sciences</h3>
+                </div>
+                <div class="p-6 text-center">
+                    <div class="w-48 h-48 lg:w-56 lg:h-56 mx-auto mb-4 overflow-hidden bg-gray-200 rounded-lg">
+                        @if(file_exists(public_path('images/staff/HOD BASIC.jpg')))
+                            <img src="{{ asset('images/staff/HOD BASIC.jpg') }}" alt="Dumisani Mfune" class="w-full h-full object-cover">
+                        @else
+                            <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-red-100 to-red-200">
+                                <i class="fas fa-microscope text-5xl text-red-400"></i>
+                            </div>
+                        @endif
+                    </div>
+                    <h4 class="text-xl font-bold text-gray-800">Dumisani Mfune, MSc</h4>
+                    <p class="text-red-600 text-sm mb-2">Head of Basic Sciences</p>
+                    <p class="text-sm text-gray-500 mb-3">MSc</p>
+                    <p class="text-gray-600 text-sm">Leading foundational sciences education for health programs.</p>
+                    <div class="mt-4 flex justify-center gap-3">
+                        <a href="mailto:basicsciences@sjogu.edu" class="text-red-600 hover:text-red-700 transition">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+265123456789" class="text-red-600 hover:text-red-700 transition">
+                            <i class="fas fa-phone-alt"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
