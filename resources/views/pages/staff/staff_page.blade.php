@@ -138,7 +138,7 @@
                 </div>
                 <div class="p-6 text-center">
                     <div class="w-48 h-48 lg:w-56 lg:h-56 mx-auto mb-4 overflow-hidden bg-gray-200 rounded-lg">
-                        @if(file_exists(public_path('images/staff/registrar.jpg')))
+                        @if(file_exists(public_path('images/staff/Registrar.jpg')))
                             <img src="{{ asset('images/staff/registrar.jpg') }}" alt="Chisomo Chithyola" class="w-full h-full object-cover">
                         @else
                             <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-red-100 to-red-200">
@@ -347,7 +347,7 @@
                 </div>
                 <div class="p-6 text-center">
                     <div class="w-48 h-48 lg:w-56 lg:h-56 mx-auto mb-4 overflow-hidden bg-gray-200 rounded-lg">
-                        @if(file_exists(public_path('images/staff/seed global.jpg')))
+                        @if(file_exists(public_path('images/staff/Seed global.jpg')))
                             <img src="{{ asset('images/staff/seed global.jpg') }}" alt="Geldine Chironda" class="w-full h-full object-cover">
                         @else
                             <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-red-100 to-red-200">
