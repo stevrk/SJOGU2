@@ -597,7 +597,7 @@
                     <div class="w-48 h-48 lg:w-56 lg:h-56 mx-auto mb-4 overflow-hidden bg-gray-200 rounded-lg">
                         <img src="{{ asset('images/staff/VC.jpg') }}" alt="Charles Masulani Mwale, PhD" class="w-full h-full object-cover">
                     </div>
-                    <h4 class="text-xl font-bold text-gray-800">Charles Masulani Mwale, PhD</h4>
+                    <h4 class="text-xl font-bold text-gray-800">Dr. Charles Masulani Mwale, PhD</h4>
                     <p class="text-red-600 text-sm mb-3">Vice Chancellor</p>
                     <p class="text-gray-600 text-sm">Leading the university with vision and excellence in higher education.</p>
                 </div>
@@ -612,7 +612,7 @@
                     <div class="w-48 h-48 lg:w-56 lg:h-56 mx-auto mb-4 overflow-hidden bg-gray-200 rounded-lg">
                         <img src="{{ asset('images/staff/DVC.jpg') }}" alt="Esmie Mkwinda, PhD" class="w-full h-full object-cover">
                     </div>
-                    <h4 class="text-xl font-bold text-gray-800">Esmie Mkwinda, PhD</h4>
+                    <h4 class="text-xl font-bold text-gray-800">Dr. Esmie Mkwinda, PhD</h4>
                     <p class="text-red-600 text-sm mb-3">Deputy Vice Chancellor</p>
                     <p class="text-gray-600 text-sm">Supporting the Vice Chancellor in academic and administrative leadership.</p>
                 </div>

@@ -71,7 +71,7 @@
                             </div>
                         @endif
                     </div>
-                    <h4 class="text-xl font-bold text-gray-800">Prof. Esmie Mkwinda, PhD</h4>
+                    <h4 class="text-xl font-bold text-gray-800">Dr. Esmie Mkwinda, PhD</h4>
                     <p class="text-red-600 text-sm mb-2">Deputy Vice Chancellor</p>
                     <p class="text-sm text-gray-500 mb-3">PhD</p>
                     <p class="text-gray-600 text-sm">Supporting the Vice Chancellor in academic and administrative leadership.</p>
@@ -177,7 +177,7 @@
                         @endif
                     </div>
                     <h4 class="text-xl font-bold text-gray-800">Zione Mugala</h4>
-                    <p class="text-red-600 text-sm mb-2">Director of Quality Assurance</p>
+                    <p class="text-red-600 text-sm mb-2">Coordinator of Quality Assurance</p>
                     <p class="text-sm text-gray-500 mb-3">MSc</p>
                     <p class="text-gray-600 text-sm">Ensuring academic standards and institutional quality compliance.</p>
                     <div class="mt-4 flex justify-center gap-3">
