@@ -41,7 +41,7 @@
                             </div>
                         @endif
                     </div>
-                    <h4 class="text-xl font-bold text-gray-800">Prof. Charles Masulani Mwale, PhD</h4>
+                    <h4 class="text-xl font-bold text-gray-800">Dr. Charles Masulani Mwale, PhD</h4>
                     <p class="text-red-600 text-sm mb-2">Vice Chancellor</p>
                     <p class="text-sm text-gray-500 mb-3">PhD, MSc, BSc</p>
                     <p class="text-gray-600 text-sm">Leading the university with vision and excellence in higher education.</p>
