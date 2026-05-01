@@ -1444,7 +1444,7 @@
         <div class="p-3 flex-1">
             <div class="flex items-center gap-2 mb-1">
                 <i class="fas fa-quote-left text-red-500 text-xs"></i>
-                <p class="text-gray-500 text-xs">Class of 2022</p>
+                <p class="text-gray-500 text-xs">Class of 2016</p>
             </div>
             <h4 class="text-base font-bold text-gray-800 mb-0.5">Frank Magagula</h4>
             <p class="text-red-600 text-xs mb-1">Clinical Psychologist</p>
@@ -1464,7 +1464,7 @@
         <div class="p-3 flex-1">
             <div class="flex items-center gap-2 mb-1">
                 <i class="fas fa-quote-left text-red-500 text-xs"></i>
-                <p class="text-gray-500 text-xs">Class of 2021</p>
+                <p class="text-gray-500 text-xs">Class of 2015</p>
             </div>
             <h4 class="text-base font-bold text-gray-800 mb-0.5">Raphael Nyirenda Jnr</h4>
             <p class="text-red-600 text-xs mb-1">Director</p>
@@ -1484,7 +1484,7 @@
         <div class="p-3 flex-1">
             <div class="flex items-center gap-2 mb-1">
                 <i class="fas fa-quote-left text-red-500 text-xs"></i>
-                <p class="text-gray-500 text-xs">Class of 2022</p>
+                <p class="text-gray-500 text-xs">Class of 2015</p>
             </div>
             <h4 class="text-base font-bold text-gray-800 mb-0.5">Mbawemi Nyasulu</h4>
             <p class="text-red-600 text-xs mb-1">Psychosocial Counsellor</p>
@@ -1504,7 +1504,7 @@
         <div class="p-3 flex-1">
             <div class="flex items-center gap-2 mb-1">
                 <i class="fas fa-quote-left text-red-500 text-xs"></i>
-                <p class="text-gray-500 text-xs">Class of 2020</p>
+                <p class="text-gray-500 text-xs">Class of 2022</p>
             </div>
             <h4 class="text-base font-bold text-gray-800 mb-0.5">Br. Louis Kuyokwa, OH</h4>
             <p class="text-red-600 text-xs mb-1">Registered Nurse</p>
