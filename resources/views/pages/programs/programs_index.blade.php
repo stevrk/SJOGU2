@@ -106,6 +106,24 @@
                         </div>
                     </div>
                 </div>
+                <!-- BSc Public Health -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition border border-gray-100">
+                    <img src="{{ asset('images/public health.jpg') }}" alt="Public Health" class="w-full h-48 object-cover">
+                    <div class="p-5">
+                        <div class="flex gap-2 mb-2">
+                            <span class="bg-green-100 text-green-700 text-xs px-2 py-1 rounded">Generic</span>
+                            <span class="bg-blue-100 text-blue-700 text-xs px-2 py-1 rounded">4 Years</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-gray-800 mb-2">Bachelor of Science in Public Health</h3>
+                        <p class="text-gray-600 text-sm mb-3 line-clamp-2">Comprehensive program focusing on community health, epidemiology, and health promotion.</p>
+                        <div class="flex items-center justify-between pt-3 border-t">
+                            <span class="text-sm text-gray-500">Full-time | 4 Years</span>
+                            <a href="{{ route('programs.show', 'bsc-public-health') }}" class="text-red-600 text-sm font-semibold hover:text-red-700 transition">
+                                Read More →
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -205,24 +223,7 @@
                     </div>
                 </div>
 
-                <!-- BSc Public Health -->
-                <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition border border-gray-100">
-                    <img src="{{ asset('images/public health.jpg') }}" alt="Public Health" class="w-full h-48 object-cover">
-                    <div class="p-5">
-                        <div class="flex gap-2 mb-2">
-                            <span class="bg-green-100 text-green-700 text-xs px-2 py-1 rounded">Generic</span>
-                            <span class="bg-blue-100 text-blue-700 text-xs px-2 py-1 rounded">4 Years</span>
-                        </div>
-                        <h3 class="text-lg font-bold text-gray-800 mb-2">Bachelor of Science in Public Health</h3>
-                        <p class="text-gray-600 text-sm mb-3 line-clamp-2">Comprehensive program focusing on community health, epidemiology, and health promotion.</p>
-                        <div class="flex items-center justify-between pt-3 border-t">
-                            <span class="text-sm text-gray-500">Full-time | 4 Years</span>
-                            <a href="{{ route('programs.show', 'bsc-public-health') }}" class="text-red-600 text-sm font-semibold hover:text-red-700 transition">
-                                Read More →
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>

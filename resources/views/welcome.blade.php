@@ -1432,88 +1432,90 @@
                 <h3 class="text-xl font-bold text-gray-800">Featured <span class="text-red-600">Alumni</span></h3>
                 <div class="w-12 h-0.5 bg-red-600 mx-auto mt-1 rounded-full"></div>
             </div>
-            
+
             <div class="grid md:grid-cols-2 gap-5">
-                <!-- Alumni 1 -->
-                <div class="bg-gray-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition flex">
-                    <div class="w-28 h-28 flex-shrink-0">
-                        <img src="{{ asset('images/alumni1.jpg') }}" 
-                             alt="Alumni"
-                             class="w-full h-full object-cover">
-                    </div>
-                    <div class="p-3 flex-1">
-                        <div class="flex items-center gap-2 mb-1">
-                            <i class="fas fa-quote-left text-red-500 text-xs"></i>
-                            <p class="text-gray-500 text-xs">Class of 2018</p>
-                        </div>
-                        <h4 class="text-base font-bold text-gray-800 mb-0.5">Dr. Sarah Mwale</h4>
-                        <p class="text-red-600 text-xs mb-1">Senior Clinical Officer</p>
-                        <p class="text-gray-600 text-xs leading-relaxed line-clamp-2">
-                            "SJOGU gave me the foundation and confidence to excel in my career."
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Alumni 2 -->
-                <div class="bg-gray-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition flex">
-                    <div class="w-28 h-28 flex-shrink-0">
-                        <img src="{{ asset('images/alumni2.jpg') }}" 
-                             alt="Alumni"
-                             class="w-full h-full object-cover">
-                    </div>
-                    <div class="p-3 flex-1">
-                        <div class="flex items-center gap-2 mb-1">
-                            <i class="fas fa-quote-left text-red-500 text-xs"></i>
-                            <p class="text-gray-500 text-xs">Class of 2019</p>
-                        </div>
-                        <h4 class="text-base font-bold text-gray-800 mb-0.5">John Banda</h4>
-                        <p class="text-red-600 text-xs mb-1">Public Health Specialist</p>
-                        <p class="text-gray-600 text-xs leading-relaxed line-clamp-2">
-                            "The holistic education at SJOGU shaped my approach to community health."
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Alumni 3 -->
-                <div class="bg-gray-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition flex">
-                    <div class="w-28 h-28 flex-shrink-0">
-                        <img src="{{ asset('images/alumni3.jpg') }}" 
-                             alt="Alumni"
-                             class="w-full h-full object-cover">
-                    </div>
-                    <div class="p-3 flex-1">
-                        <div class="flex items-center gap-2 mb-1">
-                            <i class="fas fa-quote-left text-red-500 text-xs"></i>
-                            <p class="text-gray-500 text-xs">Class of 2020</p>
-                        </div>
-                        <h4 class="text-base font-bold text-gray-800 mb-0.5">Grace Phiri</h4>
-                        <p class="text-red-600 text-xs mb-1">Nurse Educator</p>
-                        <p class="text-gray-600 text-xs leading-relaxed line-clamp-2">
-                            "Returning as an educator after graduating from SJOGU feels like coming home."
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Alumni 4 - Added to balance -->
-                <div class="bg-gray-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition flex">
-                    <div class="w-28 h-28 flex-shrink-0">
-                        <img src="{{ asset('images/alumni4.jpg') }}" 
-                             alt="Alumni"
-                             class="w-full h-full object-cover">
-                    </div>
-                    <div class="p-3 flex-1">
-                        <div class="flex items-center gap-2 mb-1">
-                            <i class="fas fa-quote-left text-red-500 text-xs"></i>
-                            <p class="text-gray-500 text-xs">Class of 2017</p>
-                        </div>
-                        <h4 class="text-base font-bold text-gray-800 mb-0.5">Dr. Michael Chirwa</h4>
-                        <p class="text-red-600 text-xs mb-1">Medical Director</p>
-                        <p class="text-gray-600 text-xs leading-relaxed line-clamp-2">
-                            "SJOGU alumni network has been instrumental in my professional growth."
-                        </p>
-                    </div>
-                </div>
+    <!-- Alumni 1: Frank Magagula -->
+    <div class="bg-gray-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition flex">
+        <div class="w-28 h-28 flex-shrink-0">
+            <img src="{{ asset('images/alumni/frank_magagula.jpeg') }}" 
+                 alt="Frank Magagula"
+                 class="w-full h-full object-cover">
+        </div>
+        <div class="p-3 flex-1">
+            <div class="flex items-center gap-2 mb-1">
+                <i class="fas fa-quote-left text-red-500 text-xs"></i>
+                <p class="text-gray-500 text-xs">Class of 2022</p>
             </div>
+            <h4 class="text-base font-bold text-gray-800 mb-0.5">Frank Magagula</h4>
+            <p class="text-red-600 text-xs mb-1">Clinical Psychologist</p>
+            <p class="text-gray-600 text-xs leading-relaxed line-clamp-2">
+                St John of God Hospitaller Services
+            </p>
+        </div>
+    </div>
+
+    <!-- Alumni 2: Raphael Nyirenda Jnr -->
+    <div class="bg-gray-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition flex">
+        <div class="w-28 h-28 flex-shrink-0">
+            <img src="{{ asset('images/alumni/raphael_nyirenda.jpeg') }}" 
+                 alt="Raphael Nyirenda Jnr"
+                 class="w-full h-full object-cover">
+        </div>
+        <div class="p-3 flex-1">
+            <div class="flex items-center gap-2 mb-1">
+                <i class="fas fa-quote-left text-red-500 text-xs"></i>
+                <p class="text-gray-500 text-xs">Class of 2021</p>
+            </div>
+            <h4 class="text-base font-bold text-gray-800 mb-0.5">Raphael Nyirenda Jnr</h4>
+            <p class="text-red-600 text-xs mb-1">Director</p>
+            <p class="text-gray-600 text-xs leading-relaxed line-clamp-2">
+                Mtendere Rehabilitation Center - Mzuzu
+            </p>
+        </div>
+    </div>
+
+    <!-- Alumni 3: Mbawemi Nyasulu -->
+    <div class="bg-gray-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition flex">
+        <div class="w-28 h-28 flex-shrink-0">
+            <img src="{{ asset('images/alumni/mbawemi_nyasulu.jpeg') }}" 
+                 alt="Mbawemi Nyasulu"
+                 class="w-full h-full object-cover">
+        </div>
+        <div class="p-3 flex-1">
+            <div class="flex items-center gap-2 mb-1">
+                <i class="fas fa-quote-left text-red-500 text-xs"></i>
+                <p class="text-gray-500 text-xs">Class of 2022</p>
+            </div>
+            <h4 class="text-base font-bold text-gray-800 mb-0.5">Mbawemi Nyasulu</h4>
+            <p class="text-red-600 text-xs mb-1">Psychosocial Counsellor</p>
+            <p class="text-gray-600 text-xs leading-relaxed line-clamp-2">
+                Mental Health Professional
+            </p>
+        </div>
+    </div>
+
+    <!-- Alumni 4: Br. Louis Kuyokwa, OH -->
+    <div class="bg-gray-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition flex">
+        <div class="w-28 h-28 flex-shrink-0">
+            <img src="{{ asset('images/alumni/louis_kuyokwa.jpeg') }}" 
+                 alt="Br. Louis Kuyokwa"
+                 class="w-full h-full object-cover">
+        </div>
+        <div class="p-3 flex-1">
+            <div class="flex items-center gap-2 mb-1">
+                <i class="fas fa-quote-left text-red-500 text-xs"></i>
+                <p class="text-gray-500 text-xs">Class of 2020</p>
+            </div>
+            <h4 class="text-base font-bold text-gray-800 mb-0.5">Br. Louis Kuyokwa, OH</h4>
+            <p class="text-red-600 text-xs mb-1">Registered Nurse</p>
+            <p class="text-gray-600 text-xs leading-relaxed line-clamp-2">
+                Saint John of God Lilongwe
+            </p>
+        </div>
+    </div>
+</div>
+            
+           
         </div>
 
         <!-- Alumni Benefits - More compact -->
