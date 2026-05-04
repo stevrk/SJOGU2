@@ -1071,7 +1071,7 @@
     </div>
 </div>
 
-<!-- Accommodation Application Modal -->
+<!-- Accommodation Application Modal - Coming Soon -->
 <div id="accommodationModal" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50 p-4">
     <div class="bg-white rounded-2xl max-w-md w-full max-h-[90vh] overflow-y-auto">
         <div class="sticky top-0 bg-gradient-to-r from-red-600 to-red-700 text-white rounded-t-2xl px-6 py-4 flex justify-between items-center">
@@ -1085,110 +1085,100 @@
         </div>
         
         <div class="p-6">
-            <form id="accommodationForm" onsubmit="submitAccommodation(event)">
+            <!-- Coming Soon Banner -->
+            <div class="bg-yellow-50 border-l-4 border-yellow-500 rounded-lg p-4 mb-4">
+                <div class="flex items-center gap-2 mb-2">
+                    <i class="fas fa-info-circle text-yellow-600"></i>
+                    <span class="font-semibold text-yellow-700">Online Application Coming Soon</span>
+                </div>
+                <p class="text-sm text-gray-600">
+                    The online accommodation application system is currently under development. Please check back soon.
+                </p>
+            </div>
+            
+            <form id="accommodationForm" onsubmit="return false;">
                 <div class="mb-4">
                     <label class="block text-sm font-semibold text-gray-700 mb-2">Full Name</label>
-                    <input type="text" id="acc_fullname" required 
-                           class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:border-red-500 focus:ring-red-500 transition"
-                           placeholder="Enter your full name">
+                    <input type="text" disabled 
+                           class="w-full px-4 py-2 border border-gray-300 rounded-lg bg-gray-100 text-gray-500 cursor-not-allowed"
+                           placeholder="Form disabled - Coming soon">
                 </div>
                 
                 <div class="mb-4">
                     <label class="block text-sm font-semibold text-gray-700 mb-2">Student Registration Number</label>
-                    <input type="text" id="acc_reg_number" required 
-                           class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:border-red-500 focus:ring-red-500 transition"
-                           placeholder="e.g., SJOGU/2024/001">
+                    <input type="text" disabled 
+                           class="w-full px-4 py-2 border border-gray-300 rounded-lg bg-gray-100 text-gray-500 cursor-not-allowed"
+                           placeholder="Form disabled - Coming soon">
                 </div>
                 
                 <div class="mb-4">
                     <label class="block text-sm font-semibold text-gray-700 mb-2">Email Address</label>
-                    <input type="email" id="acc_email" required 
-                           class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:border-red-500 focus:ring-red-500 transition"
-                           placeholder="your.email@sjogu.edu">
+                    <input type="email" disabled 
+                           class="w-full px-4 py-2 border border-gray-300 rounded-lg bg-gray-100 text-gray-500 cursor-not-allowed"
+                           placeholder="Form disabled - Coming soon">
                 </div>
                 
                 <div class="mb-4">
                     <label class="block text-sm font-semibold text-gray-700 mb-2">Phone Number</label>
-                    <input type="tel" id="acc_phone" required 
-                           class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:border-red-500 focus:ring-red-500 transition"
-                           placeholder="+265 999 123 456">
+                    <input type="tel" disabled 
+                           class="w-full px-4 py-2 border border-gray-300 rounded-lg bg-gray-100 text-gray-500 cursor-not-allowed"
+                           placeholder="Form disabled - Coming soon">
                 </div>
                 
                 <div class="mb-4">
                     <label class="block text-sm font-semibold text-gray-700 mb-2">Program of Study</label>
-                    <select id="acc_program" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:border-red-500 focus:ring-red-500 transition">
-                        <option value="">Select your program</option>
-                        <option>Diploma in Clinical Medicine</option>
-                        <option>BSc in Nursing and Midwifery</option>
-                        <option>BSc in Clinical Medicine (Mental Health)</option>
-                        <option>BSc in Mental Health Psychiatric Nursing</option>
-                        <option>BSc in Psychotherapy (Psychosocial Counselling)</option>
-                        <option>Bachelor of Science in Public Health</option>
+                    <select disabled class="w-full px-4 py-2 border border-gray-300 rounded-lg bg-gray-100 text-gray-500 cursor-not-allowed">
+                        <option>Select your program (Coming Soon)</option>
                     </select>
                 </div>
                 
                 <div class="mb-4">
                     <label class="block text-sm font-semibold text-gray-700 mb-2">Year of Study</label>
-                    <select id="acc_year" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:border-red-500 focus:ring-red-500 transition">
-                        <option value="">Select year</option>
-                        <option>Year 1</option>
-                        <option>Year 2</option>
-                        <option>Year 3</option>
-                        <option>Year 4</option>
+                    <select disabled class="w-full px-4 py-2 border border-gray-300 rounded-lg bg-gray-100 text-gray-500 cursor-not-allowed">
+                        <option>Select year (Coming Soon)</option>
                     </select>
                 </div>
                 
                 <div class="mb-4">
                     <label class="block text-sm font-semibold text-gray-700 mb-2">Preferred Room Type</label>
                     <div class="grid grid-cols-2 gap-3">
-                        <label class="flex items-center gap-2 p-2 border border-gray-200 rounded-lg cursor-pointer hover:border-red-500 transition">
-                            <input type="radio" name="room_type" value="Single Room" required class="text-red-600">
-                            <span class="text-sm">Single Room</span>
+                        <label class="flex items-center gap-2 p-2 border border-gray-200 rounded-lg bg-gray-100 cursor-not-allowed">
+                            <input type="radio" name="room_type" disabled class="text-red-600 cursor-not-allowed">
+                            <span class="text-sm text-gray-400">Single Room</span>
                         </label>
-                        <label class="flex items-center gap-2 p-2 border border-gray-200 rounded-lg cursor-pointer hover:border-red-500 transition">
-                            <input type="radio" name="room_type" value="Shared Room (2 persons)" class="text-red-600">
-                            <span class="text-sm">Shared Room (2 persons)</span>
+                        <label class="flex items-center gap-2 p-2 border border-gray-200 rounded-lg bg-gray-100 cursor-not-allowed">
+                            <input type="radio" name="room_type" disabled class="text-red-600 cursor-not-allowed">
+                            <span class="text-sm text-gray-400">Shared Room (2 persons)</span>
                         </label>
-                        <label class="flex items-center gap-2 p-2 border border-gray-200 rounded-lg cursor-pointer hover:border-red-500 transition">
-                            <input type="radio" name="room_type" value="Shared Room (4 persons)" class="text-red-600">
-                            <span class="text-sm">Shared Room (4 persons)</span>
+                        <label class="flex items-center gap-2 p-2 border border-gray-200 rounded-lg bg-gray-100 cursor-not-allowed">
+                            <input type="radio" name="room_type" disabled class="text-red-600 cursor-not-allowed">
+                            <span class="text-sm text-gray-400">Shared Room (4 persons)</span>
                         </label>
-                        <label class="flex items-center gap-2 p-2 border border-gray-200 rounded-lg cursor-pointer hover:border-red-500 transition">
-                            <input type="radio" name="room_type" value="Special Needs" class="text-red-600">
-                            <span class="text-sm">Special Needs</span>
+                        <label class="flex items-center gap-2 p-2 border border-gray-200 rounded-lg bg-gray-100 cursor-not-allowed">
+                            <input type="radio" name="room_type" disabled class="text-red-600 cursor-not-allowed">
+                            <span class="text-sm text-gray-400">Special Needs</span>
                         </label>
                     </div>
                 </div>
                 
                 <div class="mb-4">
                     <label class="block text-sm font-semibold text-gray-700 mb-2">Special Requirements (Optional)</label>
-                    <textarea id="acc_requirements" rows="2" 
-                              class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:border-red-500 focus:ring-red-500 transition"
-                              placeholder="Any medical or special accommodation requirements..."></textarea>
+                    <textarea rows="2" disabled 
+                              class="w-full px-4 py-2 border border-gray-300 rounded-lg bg-gray-100 text-gray-500 cursor-not-allowed"
+                              placeholder="Form disabled - Coming soon"></textarea>
                 </div>
                 
-                <button type="submit" class="w-full bg-red-600 text-white py-3 rounded-lg font-semibold hover:bg-red-700 transition">
-                    Submit Application
+                <button type="button" disabled class="w-full bg-gray-400 text-white py-3 rounded-lg font-semibold cursor-not-allowed">
+                    Submit Application (Coming Soon)
                 </button>
             </form>
+            
+            <div class="mt-4 p-3 bg-gray-50 rounded-lg">
+                <p class="text-xs text-center text-gray-500">
+                    <i class="fas fa-clock mr-1"></i> Online applications will be available soon
+                </p>
+            </div>
         </div>
-    </div>
-</div>
-
-<!-- Success Modal for Accommodation -->
-<div id="accommodationSuccessModal" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50 p-4">
-    <div class="bg-white rounded-2xl max-w-md w-full p-6 text-center">
-        <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-            <i class="fas fa-check-circle text-3xl text-green-600"></i>
-        </div>
-        <h3 class="text-xl font-bold text-gray-800 mb-2">Application Submitted!</h3>
-        <p class="text-gray-600 mb-4">Your accommodation application has been received successfully.</p>
-        <div class="bg-gray-50 rounded-lg p-3 mb-4 text-left">
-            <p class="text-sm text-gray-700">A confirmation email has been sent to your registered email address. Our accommodation office will contact you within 3-5 business days.</p>
-        </div>
-        <button onclick="closeAccommodationSuccessModal()" class="w-full bg-red-600 text-white py-2 rounded-lg font-semibold hover:bg-red-700 transition">
-            Close
-        </button>
     </div>
 </div>
 
@@ -1205,50 +1195,18 @@
         document.body.style.overflow = 'auto';
     }
     
-    function closeAccommodationSuccessModal() {
-        document.getElementById('accommodationSuccessModal').classList.add('hidden');
-        document.getElementById('accommodationSuccessModal').classList.remove('flex');
-        document.body.style.overflow = 'auto';
-    }
-    
-    function submitAccommodation(event) {
-        event.preventDefault();
-        
-        const fullname = document.getElementById('acc_fullname').value;
-        const regNumber = document.getElementById('acc_reg_number').value;
-        const program = document.getElementById('acc_program').value;
-        const year = document.getElementById('acc_year').value;
-        const roomType = document.querySelector('input[name="room_type"]:checked')?.value;
-        
-        if (!fullname || !regNumber || !program || !year || !roomType) {
-            alert('Please fill in all required fields.');
-            return;
-        }
-        
-        // Close the accommodation modal
-        closeAccommodationModal();
-        
-        // Show success modal
-        document.getElementById('accommodationSuccessModal').classList.remove('hidden');
-        document.getElementById('accommodationSuccessModal').classList.add('flex');
-        document.body.style.overflow = 'hidden';
-        
-        // Reset form
-        document.getElementById('accommodationForm').reset();
-    }
-    
     // Close modal when clicking outside
     window.addEventListener('click', function(e) {
         const modal = document.getElementById('accommodationModal');
-        const successModal = document.getElementById('accommodationSuccessModal');
         if (e.target === modal) {
             closeAccommodationModal();
         }
-        if (e.target === successModal) {
-            closeAccommodationSuccessModal();
-        }
     });
 </script>
+
+
+
+
           
 
             <!-- Student Council -->
